@@ -1,0 +1,64 @@
+\documentclass{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage{longtable}
+\usepackage{authblk}
+\usepackage{adjustbox}
+\usepackage{natbib}
+
+
+\title{LOS INDICES DEL MUNDO}
+% autores
+\renewcommand\Authand{, y }
+\author[1]{\normalsize María Alejandra Restrepo}
+\author[2]{\normalsize Prossimo Deal Lado}
+\author[3]{\normalsize Prueba}
+
+\affil[1,2,3]{\small  Universidad de los Andes\\
+\texttt{{marestrepot,deallado}@uniandes.edu.col}}
+\affil[1]{\small Instituto de altas investigaciones financieras\\
+Banco del Parque\\
+\texttt{delcurso@bp.com.col}}
+
+\date{30 de Junio de 2018}
+
+\begin{document}
+\SweaveOpts{concordance=TRUE}
+
+\maketitle
+
+\begin{abstract}
+Aqui se presentan los indices para Colombia
+\end{abstract}
+
+\section*{Introducción}
+
+Aqui vamos a poner la introducción
+
+Comencemos viendo que hay en la sección \ref{univariada} en la página \pageref{univariada}.
+
+\clearpage
+
+\section{Exploración Univariada}\label{univariada}
+
+En esta sección nos interesa explorar cada indice (IDH), para esto se sacan varios estadisticos de la información
+
+
+<<getData, echo=FALSE>>=
+# carga de datos y análisis de la tabla
+filename="colombia.csv"
+colb=read.csv(filename, stringsAsFactors = FALSE)
+colb<-data.frame(colb)
+@
+
+
+<<echo=F,results=tex>>=
+library(stargazer)
+vars1 <- colb[, c(2:5)]
+
+stargazer(vars1,title = "Medidas estadísticas", label = "stats",summary.stat = c("n", "median"))
+@
+
+
+
+\end{document}
