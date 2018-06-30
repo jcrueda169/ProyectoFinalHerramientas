@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.28)  29 JUN 2018 19:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.28)  29 JUN 2018 20:33
 entering extended mode
 **./ProyFMerge.tex
 (ProyFMerge.tex
@@ -643,25 +643,25 @@ File: t1aer.fd 1997/11/16 Font definitions for T1/aer.
 )))) (ProyFMerge.aux)
 \openout1 = `ProyFMerge.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 42.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 42.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 31.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 31.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    ... okay on input line 31.
 
 (C:\Users\Camilo\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -730,72 +730,99 @@ G,.JBIG2,.JB2,.eps]
 )
 (ProyFMerge-concordance.tex)
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 45.
+(Font)              <7> on input line 34.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 45.
-LaTeX Font Info:    Try loading font information for T1+aett on input line 45.
+(Font)              <5> on input line 34.
+LaTeX Font Info:    Try loading font information for T1+aett on input line 34.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\ae\t1aett.fd"
 File: t1aett.fd 1997/11/16 Font definitions for T1/aett.
 )
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 45.
+(Font)              <9> on input line 34.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 45.
+(Font)              <6> on input line 34.
+<Imagenes/hdiCalc.png, id=2, 988.69376pt x 175.65625pt>
+File: Imagenes/hdiCalc.png Graphic file (type png)
+<use Imagenes/hdiCalc.png>
+Package pdftex.def Info: Imagenes/hdiCalc.png  used on input line 48.
+(pdftex.def)             Requested size: 276.00105pt x 49.03331pt.
  [1
 
-{C:/Users/Camilo/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] (Paper.tex
-<Paper-histograma.pdf, id=15, 433.62pt x 433.62pt>
+{C:/Users/Camilo/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./Imagenes
+/hdiCalc.png>]
+(Paper.tex
+Overfull \hbox (1.51695pt too wide) in paragraph at lines 14--33
+[]\T1/aer/m/n/10 <<<<<<< HEAD ======= >>>>>>> 0dfb99868056277324f1b1ce6d1f735f4
+6219494
+ []
+
+<Paper-histograma.pdf, id=16, 433.62pt x 433.62pt>
 File: Paper-histograma.pdf Graphic file (type pdf)
 <use Paper-histograma.pdf>
-Package pdftex.def Info: Paper-histograma.pdf  used on input line 34.
+Package pdftex.def Info: Paper-histograma.pdf  used on input line 38.
 (pdftex.def)             Requested size: 276.00105pt x 276.0139pt.
-<Paper-004.pdf, id=16, 433.62pt x 433.62pt>
+<Paper-004.pdf, id=17, 433.62pt x 433.62pt>
 File: Paper-004.pdf Graphic file (type pdf)
 <use Paper-004.pdf>
-Package pdftex.def Info: Paper-004.pdf  used on input line 45.
+Package pdftex.def Info: Paper-004.pdf  used on input line 49.
 (pdftex.def)             Requested size: 276.00105pt x 276.0139pt.
-
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [2
 
  <./Paper-histograma.pdf>]
-<Paper-puntos.pdf, id=26, 433.62pt x 433.62pt>
+Overfull \hbox (1.51695pt too wide) in paragraph at lines 62--79
+[]\T1/aer/m/n/10 <<<<<<< HEAD ======= >>>>>>> 0dfb99868056277324f1b1ce6d1f735f4
+6219494
+ []
+
+
+Overfull \hbox (1.51695pt too wide) in paragraph at lines 84--103
+[]\T1/aer/m/n/10 <<<<<<< HEAD ======= >>>>>>> 0dfb99868056277324f1b1ce6d1f735f4
+6219494
+ []
+
+<Paper-puntos.pdf, id=28, 433.62pt x 433.62pt>
 File: Paper-puntos.pdf Graphic file (type pdf)
 <use Paper-puntos.pdf>
-Package pdftex.def Info: Paper-puntos.pdf  used on input line 94.
+Package pdftex.def Info: Paper-puntos.pdf  used on input line 106.
 (pdftex.def)             Requested size: 276.00105pt x 276.0139pt.
-
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) [3 <./Paper-004.pdf>] [4] [5 <./Paper-puntos.pdf>] (ProyFMerge.aux) ) 
+
+Overfull \hbox (1.51695pt too wide) in paragraph at lines 120--159
+[]\T1/aer/m/n/10 <<<<<<< HEAD ======= >>>>>>> 0dfb99868056277324f1b1ce6d1f735f4
+6219494
+ []
+
+[3 <./Paper-004.pdf>]) [4 <./Paper-puntos.pdf>] [5] (ProyFMerge.aux) ) 
 Here is how much of TeX's memory you used:
- 4487 strings out of 493305
- 62730 string characters out of 3138871
- 124140 words of memory out of 3000000
- 7900 multiletter control sequences out of 15000+200000
+ 4494 strings out of 493305
+ 62853 string characters out of 3138871
+ 124197 words of memory out of 3000000
+ 7904 multiletter control sequences out of 15000+200000
  32025 words of font info for 64 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,9n,37p,621b,358s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Prog
-ram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program File
-s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Program Files/MiKTeX 
-2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/font
-s/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/p
-ublic/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/ams
-fonts/cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
-cmr6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><
-C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Program
- Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/M
-iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files/MiKTeX 2.9
-/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
-ype1/public/amsfonts/cm/cmtt9.pfb>
-Output written on ProyFMerge.pdf (5 pages, 160088 bytes).
+ 41i,10n,37p,464b,359s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Progr
+am Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files
+/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Program Files/MiKTeX 2
+.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts
+/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pu
+blic/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsf
+onts/cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
+mr6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C
+:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Program 
+Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/Mi
+KTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files/MiKTeX 2.9/
+fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
+pe1/public/amsfonts/cm/cmtt9.pfb>
+Output written on ProyFMerge.pdf (5 pages, 181104 bytes).
 PDF statistics:
- 91 PDF objects out of 1000 (max. 8388607)
+ 92 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 20 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 25 words of extra memory for PDF output out of 10000 (max. 10000000)
 
