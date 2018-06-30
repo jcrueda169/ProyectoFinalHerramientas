@@ -5,7 +5,7 @@
 
 \section{Exploración Univariada}\label{univariada}
 
-En esta sección nos interesa explorar cada indice (IDH), para esto se evalua el numero de datos y la mediana de cada uno de los tipos de población sacan varios estadisticos de la información
+En esta sección nos interesa explorar cada indice (IDH), para esto se realizan varias estadisticas con la información obtenida. En primer lugar, se evalua el numero de datos y la mediana de cada uno de los tipos de población.
 
 
 <<getData, echo=FALSE>>=
