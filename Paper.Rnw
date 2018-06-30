@@ -7,37 +7,13 @@
 \usepackage{natbib}
 
 
-\title{LOS INDICES DEL MUNDO}
-% autores
-\renewcommand\Authand{, y }
-\author[1]{\normalsize María Alejandra Restrepo}
-\author[2]{\normalsize Prossimo Deal Lado}
-\author[3]{\normalsize Prueba}
 
-\affil[1,2,3]{\small  Universidad de los Andes\\
-\texttt{{marestrepot,deallado}@uniandes.edu.col}}
-\affil[1]{\small Instituto de altas investigaciones financieras\\
-Banco del Parque\\
-\texttt{delcurso@bp.com.col}}
-
-\date{30 de Junio de 2018}
 
 \begin{document}
 \SweaveOpts{concordance=TRUE}
 
-\maketitle
 
-\begin{abstract}
-Aqui se presentan los indices para Colombia
-\end{abstract}
 
-\section*{Introducción}
-
-Aqui vamos a poner la introducción
-
-Comencemos viendo que hay en la sección \ref{univariada} en la página \pageref{univariada}.
-
-\clearpage
 
 \section{Exploración Univariada}\label{univariada}
 
@@ -49,6 +25,12 @@ En esta sección nos interesa explorar cada indice (IDH), para esto se sacan var
 filename="colombia.csv"
 colb=read.csv(filename, stringsAsFactors = FALSE)
 colb<-data.frame(colb)
+colb$cabecera= colb$Poblacion.Cabecera*1
+colb$resto=colb$Poblacion.Resto*1
+colb$total=colb$Poblacion.Total*1
+colb$Poblacion.Cabecera=NULL
+colb$Poblacion.Resto=NULL
+colb$Poblacion.Total=NULL
 @
 
 
@@ -59,6 +41,117 @@ vars1 <- colb[, c(2:5)]
 stargazer(vars1,title = "Medidas estadísticas", label = "stats",summary.stat = c("n", "median"))
 @
 
+Para resaltar lo anterior, tenemos la Figura \ref{histograma} en la página \pageref{histograma}. 
 
 
-\end{document}
+%%%%% figure
+\begin{figure}[h]
+\centering
+<<histograma, echo=FALSE,fig=TRUE>>=
+par(mfrow=c(2,2))
+
+hist(colb$resto, col= "royalblue" ,main="Histograma población resto ",ylab="Frecuencia")
+hist(colb$cabecera, col= "royalblue" ,main="Histograma población cabecera ",ylab="Frecuencia")
+hist(colb$IDH, col= "royalblue" ,main="Histograma IDH ",ylab="Frecuencia")
+@
+\caption{Histograma del IDH }
+\label{histograma}
+\end{figure}
+
+
+Como las poblaciones tienen un sesgo se normalizan los datos con log, el histograma de estos nuevos datos se muestra en la Figura \ref{normalizados} en la página \pageref{normalizados}.
+
+\begin{figure}[h]
+\centering
+\begin{adjustbox}{height=4cm}
+<<echo=FALSE, fig=TRUE>>=
+par(mfrow=c(1,2))
+colb$cabeLog=log(colb$cabecera)
+colb$restoLog=log(colb$resto)
+colb$totalLog=log(colb$total)
+
+hist(colb$cabeLog, col= "royalblue" ,main="Histograma cabecera normalizado ",ylab="Frecuencia")
+hist(colb$restoLog, col= "royalblue" ,main="Histograma resto normalizado ",ylab="Frecuencia")
+@
+\end{adjustbox}
+\caption{Histograma de poblaciones }
+\label{normalizados}
+\end{figure}
+
+
+\section{Exploración Bivariada}\label{bivariada}
+
+en esta sección nos interesa ver el impacto que tiene la población en el IDH, para esto se presenta en la tabla \ref{correlacion} en la página \pageref{correlacion}. la correlación de las variables normalizadas con respecto al IDH
+
+
+<<corrDem, results=tex, echo=FALSE>>=
+explanans=names(colb)[c(6:7)]
+corrDem=cor(colb[,1],colb[,explanans],
+            use = "na.or.complete")
+stargazer(corrDem, title="Correlación de Democracia con las demás variables",label = "corrDem")
+@
+
+
+
+Ademas, se muestra la correlacion entre todas las variables independientes en la tabla \ref{corrTableX} en la página \pageref{corrTableX}
+
+<<corrTableX, results=tex, echo=FALSE>>=
+corrTableX=round(cor(colb[explanans],
+               use = "na.or.complete"),2)
+corrTableX_copy=corrTableX
+# Hide upper triangle
+
+corrTableX[upper.tri(corrTableX)]<-""
+
+stargazer(corrTableX, title="Correlación entre variables independientes",label = 'corrTableX')
+@
+
+los datos anteriores los puede ver visualmente en la figura \ref{puntos} en la página \pageref{puntos}
+
+\begin{figure}[h]
+\centering
+<<puntos, echo=FALSE, fig=TRUE>>=
+plot(colb[,explanans], col="royalblue")
+@
+\caption{correlacion entre cabelog y restolog }
+\label{puntos}
+\end{figure}
+
+
+
+
+\section{Modelos de Regresión}\label{regresion}
+
+Finalmente, vemos los modelos propuestos. En cada una se evalua la variable independiente DIH con cada una de las categorias de la poblacion. Los resultados se muestran en la Tabla \ref{regresiones} de la página \pageref{regresiones}.
+
+<<regresiones, echo=FALSE>>=
+LinRegA = lm(IDH ~ cabeLog, data = colb)
+LinRegB = lm(IDH ~ restoLog, data = colb)
+LinRegC = lm(IDH ~ totalLog, data = colb)
+@
+
+<<regresionesPlot,results=tex, echo=false>>=
+stargazer(LinRegA,LinRegB, LinRegC,
+         title = "Modelos de Regresión", 
+          label = "regresiones")
+@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\endinput
