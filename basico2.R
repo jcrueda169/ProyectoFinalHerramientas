@@ -106,7 +106,6 @@ nrow(mapCol_idh)  # todas!!...
 
 
 # preparacion para clusterizar:
-<<echo=FALSE>>=
 # que tengo?:
 names(mapCol_idh)
 # nombre de la variables que usaré:
@@ -114,49 +113,42 @@ dimensions=c("NAME_1","IDH","cabeLog","restoLog")
 library(cluster)
 # creo un nuevo data frame con esas:
 dataCluster=mapCol_idh@data[,c(dimensions)]
-
 # como la data es numerica la normalizo (menos la column 1):
 dataCluster[,-1]=scale(dataCluster[,-1])
 
+#parte mia
+row.names(dataCluster)=dataCluster$NAME
+dist=daisy(dataCluster[,-1],metric = "gower")
 ## APLICANDO TECNICA KMEANS
-
 # calculo 3 clusters
-
 resultado=kmeans(dataCluster[,-1],3)
-
 #creo data frame con los clusters:
 clusters=as.data.frame(resultado$cluster)
-
 # añado columna con nombre de regiones
 clusters$NAME_1=dataCluster$NAME_1
 names(clusters)=c('cluster','NAME_1')
 #hago el merge hacia el mapa:
 mapCol_idh=merge(mapCol_idh,clusters, by='NAME_1',all.x=F)
-
 # lo tengo?
 names(mapCol_idh)
 
+#####################hasta aca bien######################
 ## a pintar:
 
 library(RColorBrewer)
 library(classInt)
-
 #variable a colorear
 varToPLot=mapCol_idh$cluster
-
 # decidir color:
 unique(varToPLot)
 aggregate(mapCol_idh@data[,c(10,11,12)],
           by=list(mapCol_idh@data$cluster),FUN=mean)
-
 #preparo colores
 numberOfClasses = length(unique(varToPLot)) 
 colorForScale='Set2'
 paleta = brewer.pal(numberOfClasses, colorForScale)
-
 # grafico mapa basico
 plot(mapCol,col='grey',border=0)
-
 # grafico mapa cluster
 plot(mapCol_idh, col = paleta[varToPLot],border=F,add=T)
 legend('left', legend = c("LOW","UP","MEDIUM"),
