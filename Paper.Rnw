@@ -1,16 +1,4 @@
-\documentclass{article}
 
-\usepackage[utf8]{inputenc}
-\usepackage{longtable}
-\usepackage{authblk}
-\usepackage{adjustbox}
-\usepackage{natbib}
-
-
-
-
-\begin{document}
-\SweaveOpts{concordance=TRUE}
 
 
 
@@ -81,7 +69,7 @@ hist(colb$restoLog, col= "royalblue" ,main="Histograma resto normalizado ",ylab=
 
 \section{Exploración Bivariada}\label{bivariada}
 
-en esta sección nos interesa ver el impacto que tiene la población en el IDH, para esto se presenta en la tabla \ref{correlacion} en la página \pageref{correlacion}. la correlación de las variables normalizadas con respecto al IDH
+en esta sección nos interesa ver el impacto que tiene la población en el IDH, para esto se presenta en la tabla \ref{corrDem} en la página \pageref{corrDem}. la correlación de las variables normalizadas con respecto al IDH
 
 
 <<corrDem, results=tex, echo=FALSE>>=

@@ -20,6 +20,7 @@ summary(colb)
 ## graficos
 # el plot de cada uno seria el histograma:
 
+par(mfrow=c(2,2))
 hist(colb$IDH)
 hist(colb$Población.Cabecera)
 hist(colb$Población.Resto)
