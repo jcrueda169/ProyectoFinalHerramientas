@@ -5,21 +5,23 @@
 \usepackage{authblk}
 \usepackage{adjustbox}
 \usepackage{natbib}
+\usepackage{graphicx}
+\graphicspath{ {Imagenes/} }
 
 
-\title{LOS INDICES DEL MUNDO}
+
+\title{Indices de Desarrollo: Correlacion con la Población Colombiana}
 % autores
 \renewcommand\Authand{, y }
-\author[1]{\normalsize Juan Sebastián Cortazar}
-\author[2]{\normalsize María Alejandra Restrepo}
-\author[3]{\normalsize Juan Camilo Rueda}
+\author[1]{\normalsize Estrella DelCurso}
+\author[2]{\normalsize Prossimo Deal Lado}
 
-\affil[1,2,3]{\small  Universidad de los Andes\\
-\texttt{{js.cortazar533,ma.restrepot,jc.rueda169}@uniandes.edu.col}}
-\affil[1]{\small Basico2}
-\texttt{{i-de@cdsystems.com.co}}
-\affil[3]{\small Construcotra Colpatria\\
-\texttt{{juanc.rueda@constructoracolpatria.com}}
+\affil[1,2]{\small  Escuela de Ingeniería,Universidad de los Andes\\
+\texttt{{delcurso,deallado}@uniandes.edu.col}}
+\affil[1]{\small Instituto de altas investigaciones financieras\\
+Banco del Parque\\
+\texttt{delcurso@bp.com.col}}
+
 
 \date{29 de Junio de 2018}
 
@@ -32,28 +34,33 @@
 
 
 \begin{abstract}
-En este trabajo se muestra el **Indice de Desarrollo Humano** de Colombia por departamento. Donde a traves de estadística poblacional donde se mira el nivel de educación, nivel de salud y ingresos per capita de los distintos departamentos para poder determinar los departamentos más vulnerables y los que tienen un mejor indice. 
+En este trabajo se muestra el **Indice de Desarrollo Humano** (IDH) de Colombia por departamento. Donde a traves de estadística poblacional donde se mira el nivel de educación, nivel de salud y ingresos per capita de los distintos departamentos para poder determinar los departamentos más vulnerables y los que tienen un mejor indice.Adicional se identifica una correlación entre la población y el IDH, por lo cual se hace una regresión entre el IDH y las poblaciones de cabecera por departamento y el total de población de cada departamento con el IDH. 
 \end{abstract}
 
 \section*{Introducción}
 
-Aqui les presento mi investigacion sobre diversos indices sociales en el mundo. Los indices los conseguí de wikipedia, espero que les gusten mucho. Aqui les presento mi investigacion sobre diversos indices sociales en el mundo. Los indices los conseguí de wikipedia, espero que les gusten mucho.Aqui les presento mi investigacion sobre diversos indices sociales en el mundo. Los indices los conseguí de wikipedia, espero que les gusten mucho.Aqui les presento mi investigacion sobre diversos indices sociales en el mundo. Los indices los conseguí de wikipedia, espero que les gusten mucho.
-Aqui les presento mi investigacion sobre diversos indices sociales en el mundo. Los indices los conseguí de wikipedia, espero que les gusten mucho.Aqui les presento mi investigacion sobre diversos indices sociales en el mundo. Los indices los conseguí de wikipedia, espero que les gusten mucho.Aqui les presento mi investigacion sobre diversos indices sociales en el mundo. Los indices los conseguí de wikipedia, espero que les gusten mucho.
 
 
+
+\begin{figure}[h]
+\centering
+\includegraphics{hdiCalc}
+\end{figure}
+
+%\includegraphics{hdiCalc}
 
 Comencemos viendo que hay en la sección \ref{univariada} en la página \pageref{univariada}.
 
 \clearpage
 
 
-\input{paperVersion_7_univariada.tex}
-\input{paperVersion_7_bivariada.tex}
-\input{paperVersion_7_regresion.tex}
+\input{Paper.tex}
+%\input{paperVersion_7_bivariada.tex}
+%\input{paperVersion_7_regresion.tex}
 
 
-\bibliographystyle{apalike}
-\renewcommand{\refname}{Bibliography}
-\bibliography{Colombia}
+%\bibliographystyle{apalike}
+%\renewcommand{\refname}{Bibliography}
+%\bibliography{Colombia}
 
 \end{document}
