@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.29)  29 JUN 2018 19:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.29)  29 JUN 2018 19:48
 entering extended mode
 **./Paper.tex
 (Paper.tex
@@ -728,58 +728,34 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 <Paper-histograma.pdf, id=2, 433.62pt x 433.62pt>
 File: Paper-histograma.pdf Graphic file (type pdf)
 <use Paper-histograma.pdf>
-Package pdftex.def Info: Paper-histograma.pdf  used on input line 47.
+Package pdftex.def Info: Paper-histograma.pdf  used on input line 48.
+(pdftex.def)             Requested size: 276.00105pt x 276.0139pt.
+<Paper-normal.pdf, id=3, 433.62pt x 433.62pt>
+File: Paper-normal.pdf Graphic file (type pdf)
+<use Paper-normal.pdf>
+Package pdftex.def Info: Paper-normal.pdf  used on input line 60.
 (pdftex.def)             Requested size: 276.00105pt x 276.0139pt.
 
-
-LaTeX Warning: Reference `normalizados' on page 1 undefined on input line 53.
-
-
-LaTeX Warning: Reference `normalizados' on page 1 undefined on input line 53.
-
-<Paper-004.pdf, id=3, 433.62pt x 433.62pt>
-File: Paper-004.pdf Graphic file (type pdf)
-<use Paper-004.pdf>
-Package pdftex.def Info: Paper-004.pdf  used on input line 58.
-(pdftex.def)             Requested size: 276.00105pt x 276.0139pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: Reference `correlacion' on page 1 undefined on input line 67.
-
-
-LaTeX Warning: Reference `correlacion' on page 1 undefined on input line 67.
 
 [1
 
 {C:/Users/ma.restrepot/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./Pa
 per-histograma.pdf>]
 
-LaTeX Warning: Reference `corrTableX' on page 2 undefined on input line 86.
+LaTeX Warning: Reference `corrTableX' on page 2 undefined on input line 89.
 
 
-LaTeX Warning: Reference `corrTableX' on page 2 undefined on input line 86.
+LaTeX Warning: Reference `corrTableX' on page 2 undefined on input line 89.
 
-
-LaTeX Warning: Reference `puntos' on page 2 undefined on input line 103.
-
-
-LaTeX Warning: Reference `puntos' on page 2 undefined on input line 103.
-
-<Paper-puntos.pdf, id=17, 433.62pt x 433.62pt>
+<Paper-puntos.pdf, id=16, 433.62pt x 433.62pt>
 File: Paper-puntos.pdf Graphic file (type pdf)
 <use Paper-puntos.pdf>
-Package pdftex.def Info: Paper-puntos.pdf  used on input line 107.
+Package pdftex.def Info: Paper-puntos.pdf  used on input line 111.
 (pdftex.def)             Requested size: 276.00105pt x 276.0139pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: Reference `regresiones' on page 2 undefined on input line 117.
-
-
-LaTeX Warning: Reference `regresiones' on page 2 undefined on input line 117.
 
 )
 ! Emergency stop.
@@ -789,11 +765,11 @@ LaTeX Warning: Reference `regresiones' on page 2 undefined on input line 117.
 
  
 Here is how much of TeX's memory you used:
- 4410 strings out of 493305
- 63061 string characters out of 3133237
+ 4401 strings out of 493305
+ 62994 string characters out of 3133237
  121004 words of memory out of 3000000
- 7862 multiletter control sequences out of 15000+200000
- 16124 words of font info for 32 fonts, out of 3000000 for 9000
+ 7858 multiletter control sequences out of 15000+200000
+ 14486 words of font info for 27 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,9n,37p,279b,358s stack positions out of 5000i,500n,10000p,200000b,50000s
 !  ==> Fatal error occurred, no output PDF file produced!
