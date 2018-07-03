@@ -1,12 +1,4 @@
-<<<<<<< HEAD
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.29)  29 JUN 2018 19:48
-=======
-<<<<<<< HEAD
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.28)  29 JUN 2018 19:51
-=======
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.29)  29 JUN 2018 19:26
->>>>>>> 0dfb99868056277324f1b1ce6d1f735f46219494
->>>>>>> ab260d9ca0fc0df7d8f0226e20ffb9e91d0c4777
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.29)  3 JUL 2018 17:49
 entering extended mode
 **./Paper.tex
 (Paper.tex
@@ -67,8 +59,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.8 E
-     n esta sección nos interesa explorar cada indice (IDH), para esto se e...
+l.9 E
+     n esta sección nos interesa explorar cada indice (IDH), para esto se r...
 
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -130,6 +122,74 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no o in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no z in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no v in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no � in font nullfont!
+Missing character: There is no � in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no E in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no , in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no e in font nullfont!
@@ -194,48 +254,58 @@ Missing character: There is no i in font nullfont!
 Missing character: There is no � in font nullfont!
 Missing character: There is no � in font nullfont!
 Missing character: There is no n in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no a in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no E in font nullfont!
 Missing character: There is no n in font nullfont!
-Missing character: There is no v in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no d in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no d in font nullfont!
-Missing character: There is no e in font nullfont!
 Missing character: There is no l in font nullfont!
 Missing character: There is no a in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no f in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no m in font nullfont!
+Missing character: There is no t in font nullfont!
 Missing character: There is no a in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no � in font nullfont!
-Missing character: There is no � in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no e in font nullfont!
 Missing character: There is no n in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no � in font nullfont!
+Missing character: There is no � in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no a in font nullfont!
+! Undefined control sequence.
+<write> ...ng: Reference `stats' on page \thepage 
+                                                  \space undefined\on@line .
+l.9 ...la ref{stats} en la página \pageref{stats}
+                                                  .
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 8--9
+
+LaTeX Warning: Reference `stats' on page  undefined on input line 9.
+
+Missing character: There is no . in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 9--10
 []
+ []
+
+
+Overfull \hbox (10.86105pt too wide) in paragraph at lines 9--10
+[] 
  []
 
 
@@ -245,7 +315,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.15 \begin{table}
+l.17 \begin{table}
                   [!htbp] \centering
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -258,7 +328,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.15 \begin{table}[
+l.17 \begin{table}[
                    !htbp] \centering
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -277,7 +347,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.16   \caption
+l.18   \caption
                {Medidas estadísticas}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -303,25 +373,9 @@ Missing character: There is no c in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no s in font nullfont!
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 18.
+(Font)              <7> on input line 20.
 LaTeX Font Info:    External font `cmex10' loaded for size
-<<<<<<< HEAD
-(Font)              <5> on input line 31.
-<Paper-histograma.pdf, id=2, 433.62pt x 433.62pt>
-File: Paper-histograma.pdf Graphic file (type pdf)
-<use Paper-histograma.pdf>
-Package pdftex.def Info: Paper-histograma.pdf  used on input line 48.
-(pdftex.def)             Requested size: 276.00105pt x 276.0139pt.
-<Paper-normal.pdf, id=3, 433.62pt x 433.62pt>
-File: Paper-normal.pdf Graphic file (type pdf)
-<use Paper-normal.pdf>
-Package pdftex.def Info: Paper-normal.pdf  used on input line 60.
-(pdftex.def)             Requested size: 276.00105pt x 276.0139pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-=======
-(Font)              <5> on input line 18.
+(Font)              <5> on input line 20.
 Missing character: There is no S in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no a in font nullfont!
@@ -378,7 +432,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.27 \end{table}
+l.29 \end{table}
                 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -425,7 +479,7 @@ Missing character: There is no a in font nullfont!
 ! Undefined control sequence.
 <write> ...eference `histograma' on page \thepage 
                                                   \space undefined\on@line .
-l.28 ...terior, tenemos la Figura \ref{histograma}
+l.30 ...terior, tenemos la Figura \ref{histograma}
                                                    en la página \pageref{hi...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -434,7 +488,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Reference `histograma' on page  undefined on input line 28.
+LaTeX Warning: Reference `histograma' on page  undefined on input line 30.
 
 Missing character: There is no e in font nullfont!
 Missing character: There is no n in font nullfont!
@@ -450,7 +504,7 @@ Missing character: There is no a in font nullfont!
 ! Undefined control sequence.
 <write> ...eference `histograma' on page \thepage 
                                                   \space undefined\on@line .
-l.28 ...ograma} en la página \pageref{histograma}
+l.30 ...ograma} en la página \pageref{histograma}
                                                   .
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -459,26 +513,26 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Reference `histograma' on page  undefined on input line 28.
+LaTeX Warning: Reference `histograma' on page  undefined on input line 30.
 
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 15--29
+Overfull \hbox (20.0pt too wide) in paragraph at lines 17--31
 []
  []
 
 
-Overfull \hbox (10.00002pt too wide) in paragraph at lines 15--29
+Overfull \hbox (10.00002pt too wide) in paragraph at lines 17--31
 []
  []
 
 
-Overfull \hbox (10.86105pt too wide) in paragraph at lines 15--29
+Overfull \hbox (10.86105pt too wide) in paragraph at lines 17--31
 []
  []
 
 
-Overfull \hbox (10.86105pt too wide) in paragraph at lines 15--29
+Overfull \hbox (10.86105pt too wide) in paragraph at lines 17--31
 [] 
  []
 
@@ -489,7 +543,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.32 \begin{figure}
+l.34 \begin{figure}
                    [h]
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -502,7 +556,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.32 \begin{figure}[
+l.34 \begin{figure}[
                     h]
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -511,7 +565,7 @@ Missing character: There is no [ in font nullfont!
 Missing character: There is no h in font nullfont!
 Missing character: There is no ] in font nullfont!
 ! Undefined control sequence.
-l.34 \includegraphics
+l.36 \includegraphics
                      {Paper-histograma}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -542,7 +596,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.35 \caption
+l.37 \caption
              {Histograma del IDH }
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -570,14 +624,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.37 \end{figure}
+l.39 \end{figure}
                  
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 32--38
+Overfull \hbox (20.0pt too wide) in paragraph at lines 34--40
 []
  []
 
@@ -588,7 +642,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.40 C
+l.42 C
       omo las poblaciones tienen un sesgo se normalizan los datos con log, e...
 
 You're in trouble here.  Try typing  <return>  to proceed.
@@ -702,9 +756,9 @@ Missing character: There is no u in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no a in font nullfont!
 ! Undefined control sequence.
-<write> ...erence `normalizados' on page \thepage 
+<write> ...g: Reference `normal' on page \thepage 
                                                   \space undefined\on@line .
-l.40 ...se muestra en la Figura \ref{normalizados}
+l.42 ...datos se muestra en la Figura \ref{normal}
                                                    en la página \pageref{no...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -713,7 +767,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Reference `normalizados' on page  undefined on input line 40.
+LaTeX Warning: Reference `normal' on page  undefined on input line 42.
 
 Missing character: There is no e in font nullfont!
 Missing character: There is no n in font nullfont!
@@ -727,9 +781,9 @@ Missing character: There is no i in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no a in font nullfont!
 ! Undefined control sequence.
-<write> ...erence `normalizados' on page \thepage 
+<write> ...g: Reference `normal' on page \thepage 
                                                   \space undefined\on@line .
-l.40 ...ados} en la página \pageref{normalizados}
+l.42 ...ref{normal} en la página \pageref{normal}
                                                   .
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -738,21 +792,21 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Reference `normalizados' on page  undefined on input line 40.
+LaTeX Warning: Reference `normal' on page  undefined on input line 42.
 
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 40--41
+Overfull \hbox (20.0pt too wide) in paragraph at lines 42--43
 []
  []
 
 
-Overfull \hbox (10.86105pt too wide) in paragraph at lines 40--41
+Overfull \hbox (10.86105pt too wide) in paragraph at lines 42--43
 []
  []
 
 
-Overfull \hbox (10.86105pt too wide) in paragraph at lines 40--41
+Overfull \hbox (10.86105pt too wide) in paragraph at lines 42--43
 [] 
  []
 
@@ -763,7 +817,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.42 \begin{figure}
+l.44 \begin{figure}
                    [h]
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -776,7 +830,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.42 \begin{figure}[
+l.44 \begin{figure}[
                     h]
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -791,7 +845,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.44 \begin{adjustbox}
+l.46 \begin{adjustbox}
                       {height=4cm}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -808,8 +862,8 @@ Missing character: There is no 4 in font nullfont!
 Missing character: There is no c in font nullfont!
 Missing character: There is no m in font nullfont!
 ! Undefined control sequence.
-l.45 \includegraphics
-                     {Paper-004}
+l.47 \includegraphics
+                     {Paper-normal}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -822,9 +876,12 @@ Missing character: There is no p in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no - in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no 4 in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
 
 ! LaTeX Error: \begin{document} ended by \end{adjustbox}.
 
@@ -832,7 +889,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.46 \end{adjustbox}
+l.48 \end{adjustbox}
                     
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -845,7 +902,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.47 \caption
+l.49 \caption
              {Histograma de poblaciones }
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -880,19 +937,19 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.49 \end{figure}
+l.51 \end{figure}
                  
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 42--50
+Overfull \hbox (20.0pt too wide) in paragraph at lines 44--52
 []
  []
 
 ! Undefined control sequence.
-l.52 \section
+l.54 \section
              {Exploración Bivariada}\label{bivariada}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -907,7 +964,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.52 \section{E
+l.54 \section{E
                xploración Bivariada}\label{bivariada}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -934,7 +991,7 @@ Missing character: There is no a in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no a in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 52--53
+Overfull \hbox (20.0pt too wide) in paragraph at lines 54--55
 []
  []
 
@@ -945,7 +1002,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.54 e
+l.57 e
       n esta sección nos interesa ver el impacto que tiene la población en...
 
 You're in trouble here.  Try typing  <return>  to proceed.
@@ -1043,20 +1100,16 @@ Missing character: There is no a in font nullfont!
 Missing character: There is no b in font nullfont!
 Missing character: There is no l in font nullfont!
 Missing character: There is no a in font nullfont!
-! Undefined control sequence.
-<write> ...: Reference `corrDem' on page \thepage 
-                                                  \space undefined\on@line .
-l.54 ...esto se presenta en la tabla \ref{corrDem}
-                                                   en la página \pageref{co...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-LaTeX Warning: Reference `corrDem' on page  undefined on input line 54.
-
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no D in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no m in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no l in font nullfont!
@@ -1071,7 +1124,7 @@ Missing character: There is no a in font nullfont!
 ! Undefined control sequence.
 <write> ...: Reference `corrDem' on page \thepage 
                                                   \space undefined\on@line .
-l.54 ...f{corrDem} en la página \pageref{corrDem}
+l.57 ...f{corrDem} en la página \pageref{corrDem}
                                                   . la correlación de las v...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1080,7 +1133,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Reference `corrDem' on page  undefined on input line 54.
+LaTeX Warning: Reference `corrDem' on page  undefined on input line 57.
 
 Missing character: There is no . in font nullfont!
 Missing character: There is no l in font nullfont!
@@ -1139,18 +1192,22 @@ Missing character: There is no l in font nullfont!
 Missing character: There is no I in font nullfont!
 Missing character: There is no D in font nullfont!
 Missing character: There is no H in font nullfont!
+Missing character: There is no � in font nullfont!
+Missing character: There is no � in font nullfont!
+Missing character: There is no + in font nullfont!
+! Too many }'s.
+l.58 ¿+}
+         
+You've closed more groups than you opened.
+Such booboos are generally harmless, so keep going.
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 54--55
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 57--59
 []
  []
 
 
-Overfull \hbox (10.86105pt too wide) in paragraph at lines 54--55
-[]
- []
-
-
-Overfull \hbox (10.86105pt too wide) in paragraph at lines 54--55
+Overfull \hbox (10.86105pt too wide) in paragraph at lines 57--59
 []
  []
 
@@ -1161,7 +1218,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.59 \begin{table}
+l.63 \begin{table}
                   [!htbp] \centering
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1174,7 +1231,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.59 \begin{table}[
+l.63 \begin{table}[
                    !htbp] \centering
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1193,7 +1250,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.60   \caption
+l.64   \caption
                {Correlación de Democracia con las demás variables}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1262,19 +1319,19 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.70 \end{table}
+l.74 \end{table}
                 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 59--71
+Overfull \hbox (20.0pt too wide) in paragraph at lines 63--75
 []
  []
 
 
-Overfull \hbox (50.5557pt too wide) in paragraph at lines 59--71
+Overfull \hbox (50.5557pt too wide) in paragraph at lines 63--75
 []
  []
 
@@ -1285,7 +1342,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.73 A
+l.77 A
       demas, se muestra la correlacion entre todas las variables independien...
 
 You're in trouble here.  Try typing  <return>  to proceed.
@@ -1368,7 +1425,7 @@ Missing character: There is no a in font nullfont!
 ! Undefined control sequence.
 <write> ...eference `corrTableX' on page \thepage 
                                                   \space undefined\on@line .
-l.73 ...ndependientes en la tabla \ref{corrTableX}
+l.77 ...ndependientes en la tabla \ref{corrTableX}
                                                    en la página \pageref{co...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1377,7 +1434,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Reference `corrTableX' on page  undefined on input line 73.
+LaTeX Warning: Reference `corrTableX' on page  undefined on input line 77.
 
 Missing character: There is no e in font nullfont!
 Missing character: There is no n in font nullfont!
@@ -1393,7 +1450,7 @@ Missing character: There is no a in font nullfont!
 ! Undefined control sequence.
 <write> ...eference `corrTableX' on page \thepage 
                                                   \space undefined\on@line .
-l.73 ...TableX} en la página \pageref{corrTableX}
+l.77 ...TableX} en la página \pageref{corrTableX}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1402,20 +1459,20 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Reference `corrTableX' on page  undefined on input line 73.
+LaTeX Warning: Reference `corrTableX' on page  undefined on input line 77.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 73--74
+Overfull \hbox (20.0pt too wide) in paragraph at lines 77--78
 []
  []
 
 
-Overfull \hbox (10.86105pt too wide) in paragraph at lines 73--74
+Overfull \hbox (10.86105pt too wide) in paragraph at lines 77--78
 []
  []
 
 
-Overfull \hbox (10.86105pt too wide) in paragraph at lines 73--74
+Overfull \hbox (10.86105pt too wide) in paragraph at lines 77--78
 [] 
  []
 
@@ -1426,7 +1483,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.77 \begin{table}
+l.81 \begin{table}
                   [!htbp] \centering
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1439,7 +1496,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.77 \begin{table}[
+l.81 \begin{table}[
                    !htbp] \centering
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1458,7 +1515,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.78   \caption
+l.82   \caption
                {Correlación entre variables independientes}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1540,7 +1597,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.89 \end{table}
+l.93 \end{table}
                 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1599,7 +1656,7 @@ Missing character: There is no a in font nullfont!
 ! Undefined control sequence.
 <write> ...g: Reference `puntos' on page \thepage 
                                                   \space undefined\on@line .
-l.90 ... ver visualmente en la figura \ref{puntos}
+l.94 ...ver visualmente en la figura  \ref{puntos}
                                                    en la página \pageref{pu...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1608,7 +1665,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Reference `puntos' on page  undefined on input line 90.
+LaTeX Warning: Reference `puntos' on page  undefined on input line 94.
 
 Missing character: There is no e in font nullfont!
 Missing character: There is no n in font nullfont!
@@ -1624,7 +1681,7 @@ Missing character: There is no a in font nullfont!
 ! Undefined control sequence.
 <write> ...g: Reference `puntos' on page \thepage 
                                                   \space undefined\on@line .
-l.90 ...ref{puntos} en la página \pageref{puntos}
+l.94 ...ref{puntos} en la página \pageref{puntos}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1633,25 +1690,25 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Reference `puntos' on page  undefined on input line 90.
+LaTeX Warning: Reference `puntos' on page  undefined on input line 94.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 77--91
+Overfull \hbox (20.0pt too wide) in paragraph at lines 81--95
 []
  []
 
 
-Overfull \hbox (10.0pt too wide) in paragraph at lines 77--91
+Overfull \hbox (10.0pt too wide) in paragraph at lines 81--95
 []
  []
 
 
-Overfull \hbox (10.86105pt too wide) in paragraph at lines 77--91
+Overfull \hbox (10.86105pt too wide) in paragraph at lines 81--95
 []
  []
 
 
-Overfull \hbox (10.86105pt too wide) in paragraph at lines 77--91
+Overfull \hbox (10.86105pt too wide) in paragraph at lines 81--95
 [] 
  []
 
@@ -1662,7 +1719,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.92 \begin{figure}
+l.96 \begin{figure}
                    [h]
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1675,7 +1732,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.92 \begin{figure}[
+l.96 \begin{figure}[
                     h]
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1684,7 +1741,7 @@ Missing character: There is no [ in font nullfont!
 Missing character: There is no h in font nullfont!
 Missing character: There is no ] in font nullfont!
 ! Undefined control sequence.
-l.94 \includegraphics
+l.98 \includegraphics
                      {Paper-puntos}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1711,7 +1768,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.95 \caption
+l.99 \caption
              {correlacion entre cabelog y restolog }
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1755,20 +1812,20 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.97 \end{figure}
-                 
+l.101 \end{figure}
+                  
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 92--98
+Overfull \hbox (20.0pt too wide) in paragraph at lines 96--102
 []
  []
 
 ! Undefined control sequence.
-l.102 \section
-              {Modelos de Regresión}\label{regresion}
+l.106 \section
+              {Modelos de Regresión}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1782,8 +1839,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.102 \section{M
-                odelos de Regresión}\label{regresion}
+l.106 \section{M
+                odelos de Regresión}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -1807,7 +1864,7 @@ Missing character: There is no � in font nullfont!
 Missing character: There is no � in font nullfont!
 Missing character: There is no n in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 102--103
+Overfull \hbox (20.0pt too wide) in paragraph at lines 106--107
 []
  []
 
@@ -1818,7 +1875,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.104 F
+l.108 F
        inalmente, vemos los modelos propuestos. En cada una se evalua la var...
 
 You're in trouble here.  Try typing  <return>  to proceed.
@@ -1978,7 +2035,7 @@ Missing character: There is no a in font nullfont!
 ! Undefined control sequence.
 <write> ...ference `regresiones' on page \thepage 
                                                   \space undefined\on@line .
-l.104 ...se muestran en la Tabla \ref{regresiones}
+l.108 ...se muestran en la Tabla \ref{regresiones}
                                                    de la página \pageref{re...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1987,7 +2044,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Reference `regresiones' on page  undefined on input line 104.
+LaTeX Warning: Reference `regresiones' on page  undefined on input line 108.
 
 Missing character: There is no d in font nullfont!
 Missing character: There is no e in font nullfont!
@@ -2003,7 +2060,7 @@ Missing character: There is no a in font nullfont!
 ! Undefined control sequence.
 <write> ...ference `regresiones' on page \thepage 
                                                   \space undefined\on@line .
-l.104 ...ones} de la página \pageref{regresiones}
+l.108 ...ones} de la página \pageref{regresiones}
                                                   .
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2012,25 +2069,24 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Reference `regresiones' on page  undefined on input line 104.
+LaTeX Warning: Reference `regresiones' on page  undefined on input line 108.
 
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 104--105
+Overfull \hbox (20.0pt too wide) in paragraph at lines 108--109
 []
  []
 
 
-Overfull \hbox (10.86105pt too wide) in paragraph at lines 104--105
+Overfull \hbox (10.86105pt too wide) in paragraph at lines 108--109
 []
  []
 
 
-Overfull \hbox (10.86105pt too wide) in paragraph at lines 104--105
+Overfull \hbox (10.86105pt too wide) in paragraph at lines 108--109
 [] 
  []
 
->>>>>>> ab260d9ca0fc0df7d8f0226e20ffb9e91d0c4777
 
 ! LaTeX Error: Environment table undefined.
 
@@ -2038,15 +2094,12 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.109 \begin{table}
+l.113 \begin{table}
                    [!htbp] \centering
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<<<<<<< HEAD
-LaTeX Warning: Reference `corrTableX' on page 2 undefined on input line 89.
-=======
 
 ! LaTeX Error: Missing \begin{document}.
 
@@ -2054,7 +2107,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.109 \begin{table}[
+l.113 \begin{table}[
                     !htbp] \centering
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -2068,26 +2121,16 @@ Missing character: There is no p in font nullfont!
 Missing character: There is no ] in font nullfont!
 
 ! LaTeX Error: \caption outside float.
->>>>>>> ab260d9ca0fc0df7d8f0226e20ffb9e91d0c4777
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.110   \caption
+l.114   \caption
                 {Modelos de Regresión}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-<<<<<<< HEAD
-LaTeX Warning: Reference `corrTableX' on page 2 undefined on input line 89.
-
-<Paper-puntos.pdf, id=16, 433.62pt x 433.62pt>
-File: Paper-puntos.pdf Graphic file (type pdf)
-<use Paper-puntos.pdf>
-Package pdftex.def Info: Paper-puntos.pdf  used on input line 111.
-(pdftex.def)             Requested size: 276.00105pt x 276.0139pt.
-=======
 Missing character: There is no M in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no d in font nullfont!
@@ -2371,31 +2414,27 @@ Missing character: There is no 0 in font nullfont!
 Missing character: There is no 1 in font nullfont!
 
 ! LaTeX Error: \begin{document} ended by \end{table}.
->>>>>>> ab260d9ca0fc0df7d8f0226e20ffb9e91d0c4777
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.142 \end{table}
+l.146 \end{table}
                  
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<<<<<<< HEAD
-=======
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 109--143
+Overfull \hbox (20.0pt too wide) in paragraph at lines 113--147
 []
  []
 
 
-Overfull \hbox (115.82977pt too wide) in paragraph at lines 109--143
+Overfull \hbox (115.82977pt too wide) in paragraph at lines 113--147
 []
  []
 
->>>>>>> ab260d9ca0fc0df7d8f0226e20ffb9e91d0c4777
 )
 ! Emergency stop.
 <*> ./Paper.tex
@@ -2404,19 +2443,11 @@ Overfull \hbox (115.82977pt too wide) in paragraph at lines 109--143
 
  
 Here is how much of TeX's memory you used:
-<<<<<<< HEAD
- 4401 strings out of 493305
- 62994 string characters out of 3133237
- 121004 words of memory out of 3000000
- 7858 multiletter control sequences out of 15000+200000
- 14486 words of font info for 27 fonts, out of 3000000 for 9000
-=======
- 26 strings out of 493305
- 398 string characters out of 3138871
+ 27 strings out of 493305
+ 411 string characters out of 3133237
  60825 words of memory out of 3000000
- 3675 multiletter control sequences out of 15000+200000
+ 3676 multiletter control sequences out of 15000+200000
  4294 words of font info for 16 fonts, out of 3000000 for 9000
->>>>>>> ab260d9ca0fc0df7d8f0226e20ffb9e91d0c4777
  1141 hyphenation exceptions out of 8191
- 19i,8n,14p,265b,183s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 19i,8n,19p,311b,183s stack positions out of 5000i,500n,10000p,200000b,50000s
 !  ==> Fatal error occurred, no output PDF file produced!
