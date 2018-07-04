@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.29)  3 JUL 2018 21:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.29)  3 JUL 2018 21:09
 entering extended mode
-**./ProyFMerge.tex
-(ProyFMerge.tex
+**./basico32departamentos.tex
+(basico32departamentos.tex
 LaTeX2e <2017-04-15>
 Babel <3.18> and hyphenation patterns for 75 language(s) loaded.
 ("C:\Users\ma.restrepot\Desktop\New Folder\tex\latex\base\article.cls"
@@ -435,14 +435,7 @@ Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 \sift@deathcycles=\count97
 \@vwid@loff=\dimen118
 \@vwid@roff=\dimen119
-)) ("C:\Users\ma.restrepot\Desktop\New Folder\tex\latex\natbib\natbib.sty"
-Package: natbib 2010/09/13 8.31b (PWD, AO)
-\bibhang=\skip49
-\bibsep=\skip50
-LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count98
-)
-(C:/Users/MA53DE~1.RES/DOCUME~1/R/R-34~1.3/share/texmf/tex/latex\Sweave.sty
+)) (C:/Users/MA53DE~1.RES/DOCUME~1/R/R-34~1.3/share/texmf/tex/latex\Sweave.sty
 Package: Sweave 
 
 ("C:\Users\ma.restrepot\Desktop\New Folder\tex\latex\base\ifthen.sty"
@@ -453,11 +446,11 @@ Package: fancyvrb 2008/02/07
 
 Style option: `fancyvrb' v2.7a, with DG/SPQR fixes, and firstline=lastline fix 
 <2008/02/07> (tvz)
-\FV@CodeLineNo=\count99
+\FV@CodeLineNo=\count98
 \FV@InFile=\read1
 \FV@TabBox=\box32
-\c@FancyVerbLine=\count100
-\FV@StepNumber=\count101
+\c@FancyVerbLine=\count99
+\FV@StepNumber=\count100
 \FV@OutFile=\write3
 )
 ("C:\Users\ma.restrepot\Desktop\New Folder\tex\latex\base\textcomp.sty"
@@ -638,41 +631,41 @@ LaTeX Font Info:    Try loading font information for T1+aer on input line 105.
 ("C:\Users\ma.restrepot\Desktop\New Folder\tex\latex\ae\t1aer.fd"
 File: t1aer.fd 1997/11/16 Font definitions for T1/aer.
 ))))
-(ProyFMerge.aux)
-\openout1 = `ProyFMerge.aux'.
+(basico32departamentos.aux)
+\openout1 = `basico32departamentos.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 30.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 30.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 15.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 15.
 
 ("C:\Users\ma.restrepot\Desktop\New Folder\tex\latex\base\ts1cmr.fd"
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    ... okay on input line 15.
 
 ("C:\Users\ma.restrepot\Desktop\New Folder\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count102
+\scratchcounter=\count101
 \scratchdimen=\dimen120
 \scratchbox=\box33
-\nofMPsegments=\count103
-\nofMParguments=\count104
+\nofMPsegments=\count102
+\nofMParguments=\count103
 \everyMPshowfont=\toks19
-\MPscratchCnt=\count105
+\MPscratchCnt=\count104
 \MPscratchDim=\dimen121
-\MPnumerator=\count106
-\makeMPintoPDFobject=\count107
+\MPnumerator=\count105
+\makeMPintoPDFobject=\count106
 \everyMPtoPDFconversion=\toks20
 )
 ("C:\Users\ma.restrepot\Desktop\New Folder\tex\latex\oberdiek\epstopdf-base.sty
@@ -722,151 +715,8 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
-(ProyFMerge-concordance.tex)
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 33.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 33.
-LaTeX Font Info:    Try loading font information for T1+aett on input line 33.
-
-("C:\Users\ma.restrepot\Desktop\New Folder\tex\latex\ae\t1aett.fd"
-File: t1aett.fd 1997/11/16 Font definitions for T1/aett.
-)
-<Imagenes/hdiCalc.png, id=2, 988.69376pt x 175.65625pt>
-File: Imagenes/hdiCalc.png Graphic file (type png)
-<use Imagenes/hdiCalc.png>
-Package pdftex.def Info: Imagenes/hdiCalc.png  used on input line 47.
-(pdftex.def)             Requested size: 276.00105pt x 49.03331pt.
- [1
-
-{C:/Users/ma.restrepot/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./Im
-agenes/hdiCalc.png>] (Paper.tex
-<Paper-histograma.pdf, id=15, 433.62pt x 433.62pt>
-File: Paper-histograma.pdf Graphic file (type pdf)
-<use Paper-histograma.pdf>
-Package pdftex.def Info: Paper-histograma.pdf  used on input line 36.
-(pdftex.def)             Requested size: 276.00105pt x 276.0139pt.
-<Paper-normal.pdf, id=16, 433.62pt x 433.62pt>
-File: Paper-normal.pdf Graphic file (type pdf)
-<use Paper-normal.pdf>
-Package pdftex.def Info: Paper-normal.pdf  used on input line 47.
-(pdftex.def)             Requested size: 276.00105pt x 276.0139pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-! Too many }'s.
-l.58 ¿+}
-         
-You've closed more groups than you opened.
-Such booboos are generally harmless, so keep going.
-
-[2
-
- <./Paper-histograma.pdf>]
-<Paper-puntos.pdf, id=26, 433.62pt x 433.62pt>
-File: Paper-puntos.pdf Graphic file (type pdf)
-<use Paper-puntos.pdf>
-Package pdftex.def Info: Paper-puntos.pdf  used on input line 98.
-(pdftex.def)             Requested size: 276.00105pt x 276.0139pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-) (basico32departamentos.tex
-
-! LaTeX Error: Can be used only in preamble.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1 \documentclass
-                  {article}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Can be used only in preamble.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.8 \usepackage
-               [utf8]{inputenc}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Can be used only in preamble.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.9 \usepackage
-               {longtable}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Can be used only in preamble.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.10 \usepackage
-                {authblk}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Can be used only in preamble.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.11 \usepackage
-                {adjustbox}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Can be used only in preamble.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.14 \usepackage
-                {Sweave}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Can be used only in preamble.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.15 \begin{document}
-                     
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
 (basico32departamentos-concordance.tex)
-<basico32departamentos-plotMap0.pdf, id=28, 433.62pt x 433.62pt>
+<basico32departamentos-plotMap0.pdf, id=2, 433.62pt x 433.62pt>
 File: basico32departamentos-plotMap0.pdf Graphic file (type pdf)
 <use basico32departamentos-plotMap0.pdf>
 Package pdftex.def Info: basico32departamentos-plotMap0.pdf  used on input line
@@ -877,40 +727,24 @@ Overfull \hbox (167.16826pt too wide) in paragraph at lines 36--39
  [] 
  []
 
-[3 <./Paper-normal.pdf>] [4]
+[1
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[5 <./Paper-puntos.pdf>] [6 <./basico32departamentos-plotMap0.pdf>]
-(ProyFMerge.aux) ) )
-(\end occurred inside a group at level 1)
-
-### semi simple group (level 1) entered at line 15 (\begingroup)
-### bottom level 
+{C:/Users/ma.restrepot/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./ba
+sico32departamentos-plotMap0.pdf>] (basico32departamentos.aux) ) 
 Here is how much of TeX's memory you used:
- 4491 strings out of 493305
- 64496 string characters out of 3133237
- 124104 words of memory out of 3000000
- 7900 multiletter control sequences out of 15000+200000
- 28961 words of font info for 58 fonts, out of 3000000 for 9000
+ 4054 strings out of 493305
+ 59046 string characters out of 3133237
+ 108209 words of memory out of 3000000
+ 7517 multiletter control sequences out of 15000+200000
+ 11195 words of font info for 25 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,9n,37p,588b,389s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Users/ma.restrepot/Desktop/New Folder/fonts/type1/public/am
-sfonts/cm/cmbx12.pfb><C:/Users/ma.restrepot/Desktop/New Folder/fonts/type1/publ
-ic/amsfonts/cm/cmbx9.pfb><C:/Users/ma.restrepot/Desktop/New Folder/fonts/type1/
-public/amsfonts/cm/cmmi10.pfb><C:/Users/ma.restrepot/Desktop/New Folder/fonts/t
-ype1/public/amsfonts/cm/cmr10.pfb><C:/Users/ma.restrepot/Desktop/New Folder/fon
-ts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/ma.restrepot/Desktop/New Folder
-/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/ma.restrepot/Desktop/New Fo
-lder/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/ma.restrepot/Desktop/New
- Folder/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/ma.restrepot/Desktop/
-New Folder/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/ma.restrepot/Des
-ktop/New Folder/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/ma.restrepot
-/Desktop/New Folder/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/ma.rest
-repot/Desktop/New Folder/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on ProyFMerge.pdf (6 pages, 614179 bytes).
+ 41i,6n,37p,290b,357s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Users/ma.re
+strepot/Desktop/New Folder/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/
+ma.restrepot/Desktop/New Folder/fonts/type1/public/amsfonts/cm/cmr10.pfb>
+Output written on basico32departamentos.pdf (1 page, 462931 bytes).
 PDF statistics:
- 98 PDF objects out of 1000 (max. 8388607)
+ 21 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 34 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 10 words of extra memory for PDF output out of 10000 (max. 10000000)
 
