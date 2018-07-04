@@ -1,0 +1,161 @@
+\documentclass{article}
+
+%%%%
+% PLOTS mapas
+% eval=FALSE
+% results=HIDE (verbatim default)
+%%%%
+\usepackage[utf8]{inputenc}
+\usepackage{longtable}
+\usepackage{authblk}
+\usepackage{adjustbox}
+
+%%%%
+\begin{document}
+\SweaveOpts{concordance=TRUE}
+
+<<getData,results=HIDE, echo=FALSE>>=
+# carga de datos
+filename="colombia.csv"
+colb=read.csv(filename, stringsAsFactors = FALSE)
+colb$Poblacion.Cabecera= colb$Poblacion.Cabecera*1
+colb$Poblacion.Resto=colb$Poblacion.Resto*1
+str(colb)
+@
+
+%Partes extras para las nuevas columnas
+% Exploracion Univariada --------------------------------------------------
+<<corrTableX,results=HIDE, echo=FALSE>>=
+## estadisticos
+
+# nos interesa IDH, y poblacion cabecera y poblacion resto
+# no se puede sacar tabla de frecuencia, 
+# solo estadisticos:
+summary(colb)
+
+# dado el sesgo de las pobaciones, 
+# podriamos transformarla para que se acerque a la 
+# normalidad
+colb$cabeLog=log(colb$Poblacion.Cabecera)
+colb$restoLog=log(colb$Poblacion.Resto)
+# Exploracion Bivariada --------------------------------------------------
+# En este trabajo estamos interesados en el impacto de 
+# la poblacion en el el IDH, veamos IDH con cada uno:
+
+explanans=names(colb)[c(7:8)] # usando las logs
+corrDem=cor(colb$IDH,colb[,explanans],
+            use = "na.or.complete")
+corrDem
+# y la correlación entre las variables independientes:
+    
+corrTableX=round(cor(colb[,explanans],
+                         use = "na.or.complete"),2)
+corrTableX_copy=corrTableX
+corrTableX[upper.tri(corrTableX)]<-""
+#ver:
+corrTableX
+@
+
+\section{Exploración Espacial}
+
+Estos son los lugares donde tenemos información:
+
+<<getMap, echo=FALSE,results=HIDE>>=
+library(rgdal)
+folder='COL_maps'
+file='COL_adm1.shp'
+mapaFile=file.path(folder,file)
+mapCol <- rgdal::readOGR(mapaFile,stringsAsFactors=F) 
+# lo tenemos:
+plot(mapCol)
+# veamos que variables hay:
+head(mapCol@data)
+@
+
+<<checkNames,results=HIDE, echo=FALSE,eval=FALSE>>=
+names(mapCol)
+@
+
+%con esto hagamos el merge:
+<<mergeMap,results=HIDE,echo=FALSE>>=
+#primero ordenas la lista en orden alfabetico
+sub_colb=colb[,c(1,6,7,8)]
+sub_colb=sub_colb[order(sub_colb$DepartamentoNorm),]
+#luego agrego una columna ID para identificarse en vez de nombres
+nueva.col<-c(seq(1:32))
+sub_colb$ID<-nueva.col
+
+mapCol_idh=merge(mapCol,sub_colb, by.x='ID_1', by.y='ID',all.x=F)
+nrow(mapCol_idh)
+@
+
+<<checkSize,results=HIDE,echo=F,eval=F>>=
+nrow(mapCol)
+nrow(mapCol_idh)
+@
+
+
+<<clust,results=HIDE, echo=FALSE>>=
+names(mapCol_idh)
+# nombre de la variables que usaré:
+dimensions=c("DepartamentoNorm","IDH","cabeLog","restoLog")
+
+# creo un nuevo data frame con esas:
+dataCluster=mapCol_idh@data[,c(dimensions)]
+# como la data es numerica la normalizo (menos la column 1):
+dataCluster[,-1]=scale(dataCluster[,-1])
+
+## APLICANDO TECNICA KMEANS
+# calculo 3 clusters
+
+resultado=kmeans(dataCluster[,-1],3)
+
+#creo data frame con los clusters:
+clusters=as.data.frame(resultado$cluster)
+
+# añado columna con nombre de regiones
+clusters$NAME_1=dataCluster$DepartamentoNorm
+names(clusters)=c('cluster','NAME_1')
+#hago el merge hacia el mapa:
+mapCol_idh=merge(mapCol_idh,clusters, by='NAME_1',all.x=F)
+# lo tengo?
+names(mapCol_idh)
+@
+ 
+ 
+\begin{figure}[h]
+\centering
+\begin{adjustbox}{width=18cm,height=13cm,clip,trim=1.5cm 2cm 0cm 2.5cm}
+<<plotMap0,results=HIDE, echo=FALSE, fig=TRUE>>=
+library(RColorBrewer)
+library(classInt)
+
+#variable a colorear
+varToPLot=mapCol_idh$cluster
+
+# decidir color:
+unique(varToPLot)
+aggregate(mapCol_idh@data[,c(10,11,12)],
+          by=list(mapCol_idh@data$cluster),FUN=mean)
+
+#preparo colores
+numberOfClasses = length(unique(varToPLot)) 
+colorForScale='Blues'
+paleta = brewer.pal(numberOfClasses,colorForScale)
+
+# grafico mapa basico
+plot(mapCol,col='grey',border=0)
+
+# grafico mapa cluster
+plot(mapCol_idh, col = paleta[varToPLot],border=F,add=T)
+legend('left', legend = c("LOW","UP","MEDIUM"),
+       fill = paleta, 
+       cex = 0.6, 
+       bty = "n",
+       title="conglomerado")
+@
+\end{adjustbox}
+\caption{Departamentos con información diponible}\label{rawmap}
+\end{figure}
+
+\end{document}
