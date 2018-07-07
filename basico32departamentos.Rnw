@@ -58,7 +58,9 @@ corrTableX
 
 \section{Exploración Espacial}
 
-Estos son los lugares donde tenemos información:
+El siguiente mapa muestra el impacto que tiene la población de cada departamento sobre su respectivo IDH:
+
+
 
 <<getMap, echo=FALSE,results=HIDE>>=
 library(rgdal)
@@ -114,10 +116,10 @@ resultado=kmeans(dataCluster[,-1],3)
 clusters=as.data.frame(resultado$cluster)
 
 # añado columna con nombre de regiones
-clusters$NAME_1=dataCluster$DepartamentoNorm
-names(clusters)=c('cluster','NAME_1')
+clusters$DepartamentoNorm=dataCluster$DepartamentoNorm
+names(clusters)=c('cluster','DepartamentoNorm')
 #hago el merge hacia el mapa:
-mapCol_idh=merge(mapCol_idh,clusters, by='NAME_1',all.x=F)
+mapCol_idh=merge(mapCol_idh,clusters, by='DepartamentoNorm',all.x=F)
 # lo tengo?
 names(mapCol_idh)
 @
@@ -125,7 +127,7 @@ names(mapCol_idh)
  
 \begin{figure}[h]
 \centering
-\begin{adjustbox}{width=18cm,height=13cm,clip,trim=1.5cm 2cm 0cm 2.5cm}
+\begin{adjustbox}{width=8cm,height=6cm,clip,trim=1.5cm 2cm 0cm 2.5cm}
 <<plotMap0,results=HIDE, echo=FALSE, fig=TRUE>>=
 library(RColorBrewer)
 library(classInt)
@@ -135,7 +137,7 @@ varToPLot=mapCol_idh$cluster
 
 # decidir color:
 unique(varToPLot)
-aggregate(mapCol_idh@data[,c(10,11,12)],
+aggregate(mapCol_idh@data[,c(11,12,13)],
           by=list(mapCol_idh@data$cluster),FUN=mean)
 
 #preparo colores
@@ -147,15 +149,27 @@ paleta = brewer.pal(numberOfClasses,colorForScale)
 plot(mapCol,col='grey',border=0)
 
 # grafico mapa cluster
-plot(mapCol_idh, col = paleta[varToPLot],border=F,add=T)
-legend('left', legend = c("LOW","UP","MEDIUM"),
+plot(mapCol_idh, col = paleta[varToPLot],border=T,add=T)
+legend('left', legend = c("BAJO","MEDIO","ALTO"),
        fill = paleta, 
-       cex = 0.6, 
+       cex = 0.8, 
        bty = "n",
-       title="conglomerado")
+       title="  NIVEL DE IMPACTO")
 @
 \end{adjustbox}
-\caption{Departamentos con información diponible}\label{rawmap}
+\caption{Impacto de población en IDH por departamento}\label{rawmap}
 \end{figure}
+
+Entre mayor es el impacto de la población sobre el IDH del departamento, más oscuro se muestra en el mapa. Se dividió el impacto en 3 niveles: BAJO, MEDIO Y ALTO.
+Para lograr esta escala se implementó el siguiente procedimiento:
+
+Primero se obtuvieron los datos de IDH, población de cabecera, el resto de la población y el total de la población de cada departamento del país.
+
+Se limpiaron los datos reemplazando caracteres no reconocibles tales como la letra "ñ" y tildes.
+Para evitar un sesgo significativo por variaciones amplias en número de habitantes, primero se utilizaron valores logarítmicos y luego se normalizaron. Finalmente se crearon las 3 agrupaciones por medio de la técnica K-means.
+
+
+
+
 
 \end{document}
