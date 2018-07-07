@@ -1,20 +1,20 @@
-\documentclass{article}
+%\documentclass{article}
 
 %%%%
 % PLOTS mapas
 % eval=FALSE
 % results=HIDE (verbatim default)
 %%%%
-\usepackage[utf8]{inputenc}
-\usepackage{longtable}
-\usepackage{authblk}
-\usepackage{adjustbox}
+%\usepackage[utf8]{inputenc}
+%\usepackage{longtable}
+%\usepackage{authblk}
+%\usepackage{adjustbox}
 
 %%%%
-\usepackage{Sweave}
-\begin{document}
+%\begin{document}
 \input{basico32departamentos-concordance}
-
+%\SweaveOpts{concordance=TRUE}
+%\SweaveOpts{concordance=TRUE}
 
 %Partes extras para las nuevas columnas
 % Exploracion Univariada --------------------------------------------------
@@ -50,7 +50,7 @@ Se limpiaron los datos reemplazando caracteres no reconocibles tales como la let
 Para evitar un sesgo significativo por variaciones amplias en número de habitantes, primero se utilizaron valores logarítmicos y luego se normalizaron. Finalmente se crearon las 3 agrupaciones por medio de la técnica K-means.
 
 
+\endinput
 
 
-
-\end{document}
+%\end{document}
