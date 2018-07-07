@@ -16,11 +16,19 @@
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 \title{Índices de Desarrollo: Correlación con la Población Colombiana}
 % autores
 \renewcommand\Authand{, y }
 \author[1]{\normalsize Juan Sebastián Cortázar}
 \author[2]{\normalsize María Alejandra Restrepo}
+=======
+\title{Indices de Desarrollo: Correlacion con la Población Colombiana}
+% autores
+\renewcommand\Authand{, y }
+\author[1]{\normalsize Juan Sebastián Cortazar}
+\author[2]{\normalsize María Alejandra Restrepo}
+>>>>>>> 07c3f6665dc4057a243f22d463ed095ad3431a9d
 =======
 \title{Indices de Desarrollo: Correlacion con la Población Colombiana}
 % autores
@@ -47,7 +55,11 @@
 
 \begin{abstract}
 <<<<<<< HEAD
+<<<<<<< HEAD
 En este trabajo se muestra el **Índice de Desarrollo Humano** (IDH) de Colombia por departamento, donde a través de estadística poblacional se observa el nivel de educación, nivel de salud e ingresos per cápita de los distintos departamentos para poder determinar los departamentos más vulnerables y los que tienen un mejor índice. Adicional, se identifica una correlación entre la población y el IDH, por lo cual se hace una regresión entre el IDH y las poblaciones de cabecera por departamento y el total de población de cada departamento con el IDH.
+=======
+En este trabajo se muestra el **Indice de Desarrollo Humano** (IDH) de Colombia por departamento. Donde a traves de estadística poblacional donde se mira el nivel de educación, nivel de salud y ingresos per capita de los distintos departamentos para poder determinar los departamentos más vulnerables y los que tienen un mejor indice.Adicional se identifica una correlación entre la población y el IDH, por lo cual se hace una regresión entre el IDH y las poblaciones de cabecera por departamento y el total de población de cada departamento con el IDH. 
+>>>>>>> 07c3f6665dc4057a243f22d463ed095ad3431a9d
 =======
 En este trabajo se muestra el **Indice de Desarrollo Humano** (IDH) de Colombia por departamento. Donde a traves de estadística poblacional donde se mira el nivel de educación, nivel de salud y ingresos per capita de los distintos departamentos para poder determinar los departamentos más vulnerables y los que tienen un mejor indice.Adicional se identifica una correlación entre la población y el IDH, por lo cual se hace una regresión entre el IDH y las poblaciones de cabecera por departamento y el total de población de cada departamento con el IDH. 
 >>>>>>> 07c3f6665dc4057a243f22d463ed095ad3431a9d
@@ -67,8 +79,11 @@ El valor del IDH es la media geométrica entre los índices normalizados de la
 \end{figure}
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Para el cálculo de cada uno de los índices se tienen unos límites inferiores y superiores que en conjunto con los valores del sector (ya sea país o departamento) generan cada uno de los índices. En la tabla \ref{Tabla 1:} se puede ver lo siguiente.
 =======
+=======
+>>>>>>> 07c3f6665dc4057a243f22d463ed095ad3431a9d
 Para el cálculo de cada uno de los índices se tienen unos limites inferiores y superiores que en conjunto con los valores del sector (ya sea país o departamento) generan cada uno de los índices. En la tabla \ref{Tabla 1:} se puede ver lo siguiente.
 
 >>>>>>> 07c3f6665dc4057a243f22d463ed095ad3431a9d
