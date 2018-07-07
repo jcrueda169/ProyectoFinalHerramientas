@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.29)  3 JUL 2018 17:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.29)  6 JUL 2018 22:32
 entering extended mode
 **./Paper.tex
 (Paper.tex
@@ -264,14 +264,20 @@ Missing character: There is no a in font nullfont!
 Missing character: There is no b in font nullfont!
 Missing character: There is no l in font nullfont!
 Missing character: There is no a in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no f in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no s in font nullfont!
+! Undefined control sequence.
+<write> ...ng: Reference `stats' on page \thepage 
+                                                  \space undefined\on@line .
+l.9 ...tipos de población.En la tabla \ref{stats}
+                                                   en la página \pageref{st...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Reference `stats' on page  undefined on input line 9.
+
 Missing character: There is no e in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no l in font nullfont!
@@ -286,7 +292,7 @@ Missing character: There is no a in font nullfont!
 ! Undefined control sequence.
 <write> ...ng: Reference `stats' on page \thepage 
                                                   \space undefined\on@line .
-l.9 ...la ref{stats} en la página \pageref{stats}
+l.9 ...a \ref{stats} en la página \pageref{stats}
                                                   .
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -300,6 +306,11 @@ LaTeX Warning: Reference `stats' on page  undefined on input line 9.
 Missing character: There is no . in font nullfont!
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 9--10
+[]
+ []
+
+
+Overfull \hbox (10.86105pt too wide) in paragraph at lines 9--10
 []
  []
 
@@ -2449,5 +2460,5 @@ Here is how much of TeX's memory you used:
  3676 multiletter control sequences out of 15000+200000
  4294 words of font info for 16 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 19i,8n,19p,311b,183s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 19i,8n,19p,312b,183s stack positions out of 5000i,500n,10000p,200000b,50000s
 !  ==> Fatal error occurred, no output PDF file produced!

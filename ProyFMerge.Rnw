@@ -105,6 +105,6 @@ Comencemos viendo que hay en la sección \ref{univariada} en la página \pageref
 
 \bibliographystyle{apalike}
 %\renewcommand{\refname}{Bibliografía}
-\bibliography{Proyecto}
+\bibliography{ProyectoHerramientas}
 
 \end{document}
