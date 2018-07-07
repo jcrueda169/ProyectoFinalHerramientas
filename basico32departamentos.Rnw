@@ -1,19 +1,5 @@
-\documentclass{article}
 
-%%%%
-% PLOTS mapas
-% eval=FALSE
-% results=HIDE (verbatim default)
-%%%%
-\usepackage[utf8]{inputenc}
-\usepackage{longtable}
-\usepackage{authblk}
-\usepackage{adjustbox}
-
-%%%%
-\begin{document}
-\SweaveOpts{concordance=TRUE}
-
+%\section{Exploración Espacial}
 <<getData,results=HIDE, echo=FALSE>>=
 # carga de datos
 filename="colombia.csv"
@@ -55,8 +41,6 @@ corrTableX[upper.tri(corrTableX)]<-""
 #ver:
 corrTableX
 @
-
-\section{Exploración Espacial}
 
 El siguiente mapa muestra el impacto que tiene la población de cada departamento sobre su respectivo IDH:
 
@@ -169,7 +153,5 @@ Se limpiaron los datos reemplazando caracteres no reconocibles tales como la let
 Para evitar un sesgo significativo por variaciones amplias en número de habitantes, primero se utilizaron valores logarítmicos y luego se normalizaron. Finalmente se crearon las 3 agrupaciones por medio de la técnica K-means.
 
 
+\endinput
 
-
-
-\end{document}

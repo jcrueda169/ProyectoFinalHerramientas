@@ -1,8 +1,4 @@
 
-
-
-
-
 \section{Exploración Univariada}\label{univariada}
 
 
@@ -85,7 +81,7 @@ stargazer(corrDem, title="Correlación de Democracia con las demás variables",l
 
 
 
-Ademas, se muestra la correlacion entre todas las variables independientes en la tabla \ref{corrTableX} en la página \pageref{corrTableX}
+Ademas, se muestra la correlación entre todas las variables independientes en la tabla \ref{corrTableX} en la página \pageref{corrTableX}
 
 <<corrTableX, results=tex, echo=FALSE>>=
 corrTableX=round(cor(colb[explanans],
@@ -105,7 +101,7 @@ los datos anteriores los puede ver visualmente en la figura  \ref{puntos} en la 
 <<puntos, echo=FALSE, fig=TRUE>>=
 plot(colb[,explanans], col="royalblue")
 @
-\caption{correlacion entre cabelog y restolog }
+\caption{correlación entre cabelog y restolog }
 \label{puntos}
 \end{figure}
 
@@ -114,7 +110,7 @@ plot(colb[,explanans], col="royalblue")
 
 \section{Modelos de Regresión}
 
-Finalmente, vemos los modelos propuestos. En cada una se evalua la variable independiente DIH con cada una de las categorias de la poblacion. Los resultados se muestran en la Tabla \ref{regresiones} de la página \pageref{regresiones}.
+Finalmente, vemos los modelos propuestos. En cada una se evalua la variable independiente DIH con cada una de las categorias de la población. Los resultados se muestran en la Tabla \ref{regresiones} de la página \pageref{regresiones}.
 
 <<regresiones, echo=false>>=
 LinRegA = lm(IDH ~ cabeLog, data = colb)
@@ -127,20 +123,6 @@ stargazer(LinRegA,LinRegB, LinRegC,
          title = "Modelos de Regresión", 
           label = "regresiones")
 @
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
