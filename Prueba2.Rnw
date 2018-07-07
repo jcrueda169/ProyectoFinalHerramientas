@@ -54,7 +54,7 @@ El valor del IDH es la media geométrica entre los índices normalizados de las 
 \label {IDH}
 \end{figure}
 
-Para el cálculo de cada uno de los índices se tienen unos limites inferiores y superiores que en conjunto con los valores del sector (ya sea país o departamento) generan cada uno de los índices. En la tabla \ref{Tabla 1:} se puede ver lo siguiente.
+Para el cálculo de cada uno de los índices se tienen unos limites inferiores y superiores que en conjunto con los valores del sector (ya sea país o departamento) generan cada uno de los índices. En la tabla \ref{Tabla 1:} se puede ver lo siguiente
 
 %tabla boundary values
 
@@ -72,7 +72,7 @@ Para el cálculo de cada uno de los índices se tienen unos limites inferiores y
   \end{tabular}
  \caption {Rango de Dimensiones IDH}
   \label{Tabla 1:}
-\end {table} 
+\end {table}  
 
 La variable Salud se genera a través de un índice compuesto que refleja condiciones de salud en los hogares: protección de salud, a través del IGSS o de un seguro, número de personas por dormitorio, tipo de acceso a agua y saneamiento y tipo de piso en la vivienda. Todos estos factores influencian la expectantica de vida y se calculan de la siguiente manera.
 
@@ -87,24 +87,11 @@ Donde
 
 La variable del nivel de vida mide el PIB per cápita de una zona o país teniendo en cuenta un mínimo esperado y un máximo. La formula es la siguiente
 
-\[Nivel de Vida = \frac {Ln(PIBx) – Ln (100)} {Ln(75,000)-Ln(100)} \]
+\[Nivel de Vida = \frac {Ln(PIBx)–Ln(100)} {Ln(75,000)-Ln(100)} \]
 
 
 
 
 
-Comencemos viendo que hay en la sección \ref{univariada} en la página \pageref{univariada}.
-
-\clearpage
-
-
-\input{Paper.tex}
-\input{basico32departamentos.tex}
-
-
-
-\bibliographystyle{apalike}
-%\renewcommand{\refname}{Bibliografía}
-\bibliography{Proyecto}
 
 \end{document}
