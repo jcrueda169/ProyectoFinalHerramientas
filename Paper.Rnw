@@ -116,7 +116,7 @@ plot(colb[,explanans], col="royalblue")
 
 Finalmente, vemos los modelos propuestos. En cada una se evalua la variable independiente DIH con cada una de las categorias de la poblacion. Los resultados se muestran en la Tabla \ref{regresiones} de la página \pageref{regresiones}.
 
-<<regresiones, echo=FALSE>>=
+<<regresiones, echo=false>>=
 LinRegA = lm(IDH ~ cabeLog, data = colb)
 LinRegB = lm(IDH ~ restoLog, data = colb)
 LinRegC = lm(IDH ~ totalLog, data = colb)

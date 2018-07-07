@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.29)  3 JUL 2018 21:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.29)  6 JUL 2018 22:35
 entering extended mode
 **./basico32departamentos.tex
 (basico32departamentos.tex
@@ -720,29 +720,25 @@ G,.JBIG2,.JB2,.eps]
 File: basico32departamentos-plotMap0.pdf Graphic file (type pdf)
 <use basico32departamentos-plotMap0.pdf>
 Package pdftex.def Info: basico32departamentos-plotMap0.pdf  used on input line
- 37.
+ 39.
 (pdftex.def)             Requested size: 276.00105pt x 276.0139pt.
-
-Overfull \hbox (167.16826pt too wide) in paragraph at lines 36--39
- [] 
- []
-
-[1
+ [1
 
 {C:/Users/ma.restrepot/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./ba
-sico32departamentos-plotMap0.pdf>] (basico32departamentos.aux) ) 
+sico32departamentos-plotMap0.pdf>]
+(basico32departamentos.aux) ) 
 Here is how much of TeX's memory you used:
  4054 strings out of 493305
- 59046 string characters out of 3133237
- 108209 words of memory out of 3000000
+ 59047 string characters out of 3133237
+ 109209 words of memory out of 3000000
  7517 multiletter control sequences out of 15000+200000
  11195 words of font info for 25 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,6n,37p,290b,357s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Users/ma.re
-strepot/Desktop/New Folder/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/
-ma.restrepot/Desktop/New Folder/fonts/type1/public/amsfonts/cm/cmr10.pfb>
-Output written on basico32departamentos.pdf (1 page, 462931 bytes).
+<C:/Users/ma.restrepot/Desktop/New Folder/fonts/ty
+pe1/public/amsfonts/cm/cmbx12.pfb><C:/Users/ma.restrepot/Desktop/New Folder/fon
+ts/type1/public/amsfonts/cm/cmr10.pfb>
+Output written on basico32departamentos.pdf (1 page, 578180 bytes).
 PDF statistics:
  21 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
