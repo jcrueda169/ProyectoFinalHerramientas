@@ -1,13 +1,9 @@
-<<<<<<< HEAD
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.29)  6 JUL 2018 09:55
-=======
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  6 JUL 2018 22:19
->>>>>>> 4b6808420668f46d7ceda0344ca0b4bf980f0042
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  6 JUL 2018 22:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**ProyFMerge.tex
-(./ProyFMerge.tex
+**Prueba2.tex
+(./Prueba2.tex
 LaTeX2e <2018-04-01> patch level 2
 Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
 (/usr/local/texlive/2018/texmf-dist/tex/latex/base/article.cls
@@ -436,8 +432,8 @@ LaTeX Font Info:    Try loading font information for T1+aer on input line 105.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/ae/t1aer.fd
 File: t1aer.fd 1997/11/16 Font definitions for T1/aer.
-)))) (./ProyFMerge.aux)
-\openout1 = `ProyFMerge.aux'.
+)))) (./Prueba2.aux)
+\openout1 = `Prueba2.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 35.
 LaTeX Font Info:    ... okay on input line 35.
@@ -453,7 +449,8 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 35.
 LaTeX Font Info:    ... okay on input line 35.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 35.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 35.
- (/usr/local/texlive/2018/texmf-dist/tex/latex/base/ts1cmr.fd
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 35.
@@ -527,7 +524,7 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-(./ProyFMerge-concordance.tex)
+(./Prueba2-concordance.tex)
 LaTeX Font Info:    Try loading font information for T1+aett on input line 38.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/ae/t1aett.fd
@@ -557,186 +554,32 @@ Overfull \hbox (15.41989pt too wide) detected at line 87
 \OML/cmm/m/it/10 EN \OT1/cmr/m/n/10 = []
  []
 
-
-Overfull \hbox (3.18663pt too wide) in paragraph at lines 97--98
-[]\T1/aer/m/n/10 Comencemos viendo que hay en la secci<U+00F3>n 1[] en la p<U+0
-0E1>gina
- []
-
-[2] [3] (./Paper.tex
-<Paper-histograma.pdf, id=27, 433.62pt x 433.62pt>
-File: Paper-histograma.pdf Graphic file (type pdf)
-<use Paper-histograma.pdf>
-Package pdftex.def Info: Paper-histograma.pdf  used on input line 36.
-(pdftex.def)             Requested size: 276.00105pt x 276.0139pt.
-<Paper-normal.pdf, id=28, 433.62pt x 433.62pt>
-File: Paper-normal.pdf Graphic file (type pdf)
-<use Paper-normal.pdf>
-Package pdftex.def Info: Paper-normal.pdf  used on input line 47.
-(pdftex.def)             Requested size: 276.00105pt x 276.0139pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-! Too many }'s.
-l.58 ¿+}
-         
-You've closed more groups than you opened.
-Such booboos are generally harmless, so keep going.
-
-[4
-
- <./Paper-histograma.pdf>]
-<Paper-puntos.pdf, id=38, 433.62pt x 433.62pt>
-File: Paper-puntos.pdf Graphic file (type pdf)
-<use Paper-puntos.pdf>
-Package pdftex.def Info: Paper-puntos.pdf  used on input line 98.
-(pdftex.def)             Requested size: 276.00105pt x 276.0139pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-) (./basico32departamentos.tex
-
-! LaTeX Error: Can be used only in preamble.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1 \documentclass
-                  {article}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Can be used only in preamble.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.8 \usepackage
-               [utf8]{inputenc}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Can be used only in preamble.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.9 \usepackage
-               {longtable}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Can be used only in preamble.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.10 \usepackage
-                {authblk}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Can be used only in preamble.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.11 \usepackage
-                {adjustbox}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Can be used only in preamble.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.14 \usepackage
-                {Sweave}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Can be used only in preamble.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.15 \begin{document}
-                     
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-(./basico32departamentos-concordance.tex)
-<basico32departamentos-plotMap0.pdf, id=40, 433.62pt x 433.62pt>
-File: basico32departamentos-plotMap0.pdf Graphic file (type pdf)
-<use basico32departamentos-plotMap0.pdf>
-Package pdftex.def Info: basico32departamentos-plotMap0.pdf  used on input line
- 37.
-(pdftex.def)             Requested size: 276.00105pt x 276.0139pt.
-
-Overfull \hbox (167.16826pt too wide) in paragraph at lines 36--39
- [] 
- []
-
-[5 <./Paper-normal.pdf>] [6]
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[7 <./Paper-puntos.pdf>] [8 <./basico32departamentos-plotMap0.pdf>]
-(./ProyFMerge.aux) ) )
-(\end occurred inside a group at level 1)
-
-### semi simple group (level 1) entered at line 15 (\begingroup)
-### bottom level 
+[2] (./Prueba2.aux) ) 
 Here is how much of TeX's memory you used:
- 5561 strings out of 492649
- 78848 string characters out of 6129622
- 153453 words of memory out of 5000000
- 9285 multiletter control sequences out of 15000+600000
- 29415 words of font info for 60 fonts, out of 8000000 for 9000
+ 5517 strings out of 492649
+ 77853 string characters out of 6129622
+ 149373 words of memory out of 5000000
+ 9257 multiletter control sequences out of 15000+600000
+ 26931 words of font info for 57 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,9n,37p,620b,396s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmbx12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmbx9.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmmi10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmmi12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mmi9.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmm
-ib10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
-10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12
-.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.p
-fb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb>
-</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></u
-sr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></us
-r/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/
-local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/l
-ocal/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on ProyFMerge.pdf (8 pages, 638819 bytes).
+ 41i,9n,37p,617b,309s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2018/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmbx12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmbx9.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmmi10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmmi12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmmi9.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmmib10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmr10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmr12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+r17.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7
+.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pf
+b></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
+></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
+Output written on Prueba2.pdf (2 pages, 160094 bytes).
 PDF statistics:
- 120 PDF objects out of 1000 (max. 8388607)
- 83 compressed objects within 1 object stream
+ 65 PDF objects out of 1000 (max. 8388607)
+ 45 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 34 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 10 words of extra memory for PDF output out of 10000 (max. 10000000)
 
