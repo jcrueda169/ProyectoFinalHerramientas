@@ -1,0 +1,98 @@
+\documentclass{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage{longtable}
+\usepackage{authblk}
+\usepackage{adjustbox}
+\usepackage{natbib}
+\usepackage{graphicx}
+\graphicspath{ {Imagenes/} }
+\usepackage{array}
+\usepackage{tabu}
+\usepackage{multirow}
+\usepackage{amsmath}
+\usepackage{adjustbox}
+
+
+
+\title{Indices de Desarrollo: Correlacion con la Poblacio<U+0301>n Colombiana}
+% autores
+\renewcommand\Authand{, y }
+\author[1]{\normalsize Juan Sebastia<U+0301>n Cortazar}
+\author[2]{\normalsize Mari<U+0301>a Alejandra Restrepo}
+\author[3]{\normalsize Juan Camilo Rueda}
+
+\affil[1,2,3]{\small  Universidad de los Andes\\
+\texttt{{js.cortazar533,ma.restrepot,jc.rueda169}@uniandes.edu.col}}
+
+
+
+\date{29 de Junio de 2018}
+
+%%%%
+
+\usepackage{Sweave}
+\begin{document}
+\input{Prueba2-concordance}
+
+\maketitle
+
+
+\begin{abstract}
+En este trabajo se muestra el **Indice de Desarrollo Humano** (IDH) de Colombia por departamento. Donde a traves de estadi<U+0301>stica poblacional donde se mira el nivel de educacio<U+0301>n, nivel de salud y ingresos per capita de los distintos departamentos para poder determinar los departamentos ma<U+0301>s vulnerables y los que tienen un mejor indice.Adicional se identifica una correlacio<U+0301>n entre la poblacio<U+0301>n y el IDH, por lo cual se hace una regresio<U+0301>n entre el IDH y las poblaciones de cabecera por departamento y el total de poblacio<U+0301>n de cada departamento con el IDH. 
+\end{abstract}
+
+\section*{Introduccio<U+0301>n}
+
+El I<U+0301>ndice de Desarrollo Humano es una medida utilizada para determinar el crecimiento y el desarrollo de las zonas y los pai<U+0301>ses teniendo no solo en cuenta el crecimiento econo<U+0301>mico. Este i<U+0301>ndice busca medir no solo los PIB per ca<U+0301>pita de las personas, sino que busca entender el acceso a salud y a la educacio<U+0301>n que determinan la posibilidad de crecimiento de las sociedades y sus capacidades de generar unas mejores condiciones de vida. 
+El valor del IDH es la media geome<U+0301>trica entre los i<U+0301>ndices normalizados de las tres dimensiones (Salud, Educacio<U+0301>n y Nivel de Vida) como se muestra en la imagen \ref{IDH} a continuacio<U+0301>n. 
+
+
+%imagen de calculo del IDH
+\begin{figure}[h]
+\centering
+\includegraphics{hdiCalc}
+\label {IDH}
+\end{figure}
+
+Para el ca<U+0301>lculo de cada uno de los i<U+0301>ndices se tienen unos limites inferiores y superiores que en conjunto con los valores del sector (ya sea pai<U+0301>s o departamento) generan cada uno de los i<U+0301>ndices. En la tabla \ref{Tabla 1:} se puede ver lo siguiente
+
+%tabla boundary values
+
+\begin{table}[h!]
+\centering
+  \begin{tabular}{l c c c}
+  \hline
+  Dimensiones & Indicador & Min & Max \\ [0.25ex]
+  \hline \hline
+  Salud & Expectancia de Vida (an<U+0303>os) & 20 & 85 \\
+  \multirow{2}{*}{Educacio<U+0301>n} & Escolaridad Adultos & 0 & 18 \\ 
+   & Esperanza educativa nin<U+0303>os & 0 & 15 \\
+  Nivel de Vida  & PIB per Capita (USD ctes 2011) & 100 & 75,000 \\
+  \hline
+  \end{tabular}
+ \caption {Rango de Dimensiones IDH}
+  \label{Tabla 1:}
+\end {table}  
+
+La variable Salud se genera a trave<U+0301>s de un i<U+0301>ndice compuesto que refleja condiciones de salud en los hogares: proteccio<U+0301>n de salud, a trave<U+0301>s del IGSS o de un seguro, nu<U+0301>mero de personas por dormitorio, tipo de acceso a agua y saneamiento y tipo de piso en la vivienda. Todos estos factores influencian la expectantica de vida y se calculan de la siguiente manera.
+
+\[ Salud=\frac{LE-20} {85-20} \]
+
+Donde $LE = Expectativa de Vida$
+La variable Educacio<U+0301>n es un indicador compuesto que incluye la escolaridad alcanzada por adultos mayores de 25 an<U+0303>os y la esperanza educativa en nin<U+0303>os. En el primer indicador se mide la tasa de alfabetizacio<U+0301>n de adultos en el segundo se mide la tasa bruta combinada de matriculacio<U+0301>n en educacio<U+0301>n primara, secundario y superior, asi<U+0301> como los an<U+0303>os de duracio<U+0301>n de la educacio<U+0301>n obligatoria. El ca<U+0301>lculo del i<U+0301>ndice de educacio<U+0301>n se define de la siguiente manera
+\[Educacio<U+0301>n= \frac{EA + EN} {2} \]
+Donde
+\[EA= \frac{Prom de an<U+0303>os de educacio<U+0301>n adultos} {18}  \]
+\[EN= \frac{Prom an<U+0303>os educacio<U+0300>n nin<U+0303>os} {15}  \]
+
+La variable del nivel de vida mide el PIB per ca<U+0301>pita de una zona o pai<U+0301>s teniendo en cuenta un mi<U+0301>nimo esperado y un ma<U+0301>ximo. La formula es la siguiente
+
+\[Nivel de Vida = \frac {Ln(PIBx)-Ln(100)} {Ln(75,000)-Ln(100)} \]
+
+
+
+
+
+
+\end{document}

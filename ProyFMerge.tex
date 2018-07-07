@@ -7,20 +7,24 @@
 \usepackage{natbib}
 \usepackage{graphicx}
 \graphicspath{ {Imagenes/} }
+\usepackage{array}
+\usepackage{tabu}
+\usepackage{multirow}
+\usepackage{amsmath}
+\usepackage{adjustbox}
 
 
 
 \title{Indices de Desarrollo: Correlacion con la Población Colombiana}
 % autores
 \renewcommand\Authand{, y }
-\author[1]{\normalsize Estrella DelCurso}
-\author[2]{\normalsize Prossimo Deal Lado}
+\author[1]{\normalsize Juan Sebastián Cortazar}
+\author[2]{\normalsize María Alejandra Restrepo}
+\author[3]{\normalsize Juan Camilo Rueda}
 
-\affil[1,2]{\small  Escuela de Ingeniería,Universidad de los Andes\\
-\texttt{{delcurso,deallado}@uniandes.edu.col}}
-\affil[1]{\small Instituto de altas investigaciones financieras\\
-Banco del Parque\\
-\texttt{delcurso@bp.com.col}}
+\affil[1,2,3]{\small  Universidad de los Andes\\
+\texttt{{js.cortazar533,ma.restrepot,jc.rueda169}@uniandes.edu.col}}
+
 
 
 \date{29 de Junio de 2018}
@@ -35,20 +39,60 @@ Banco del Parque\\
 
 
 \begin{abstract}
-En este trabajo se muestra el **Indice de Desarrollo Humano** de Colombia por departamento. Donde a traves de estadística poblacional donde se mira el nivel de educación, nivel de salud y ingresos per capita de los distintos departamentos para poder determinar los departamentos más vulnerables y los que tienen un mejor indice.Adicional se identifica una correlación entre la población y el IDH, por lo cual se hace una regresión 
+En este trabajo se muestra el **Indice de Desarrollo Humano** (IDH) de Colombia por departamento. Donde a traves de estadística poblacional donde se mira el nivel de educación, nivel de salud y ingresos per capita de los distintos departamentos para poder determinar los departamentos más vulnerables y los que tienen un mejor indice.Adicional se identifica una correlación entre la población y el IDH, por lo cual se hace una regresión entre el IDH y las poblaciones de cabecera por departamento y el total de población de cada departamento con el IDH. 
 \end{abstract}
 
 \section*{Introducción}
 
+El Índice de Desarrollo Humano es una medida utilizada para determinar el crecimiento y el desarrollo de las zonas y los países teniendo no solo en cuenta el crecimiento económico. Este índice busca medir no solo los PIB per cápita de las personas, sino que busca entender el acceso a salud y a la educación que determinan la posibilidad de crecimiento de las sociedades y sus capacidades de generar unas mejores condiciones de vida. 
+El valor del IDH es la media geométrica entre los índices normalizados de las tres dimensiones (Salud, Educación y Nivel de Vida) como se muestra en la imagen \ref{IDH} a continuación. 
 
 
-
+%imagen de calculo del IDH
 \begin{figure}[h]
 \centering
 \includegraphics{hdiCalc}
+\label {IDH}
 \end{figure}
 
-%\includegraphics{hdiCalc}
+Para el cálculo de cada uno de los índices se tienen unos limites inferiores y superiores que en conjunto con los valores del sector (ya sea país o departamento) generan cada uno de los índices. En la tabla \ref{Tabla 1:} se puede ver lo siguiente.
+
+%tabla boundary values
+
+\begin{table}[h!]
+\centering
+  \begin{tabular}{l c c c}
+  \hline
+  Dimensiones & Indicador & Min & Max \\ [0.25ex]
+  \hline \hline
+  Salud & Expectancia de Vida (años) & 20 & 85 \\
+  \multirow{2}{*}{Educación} & Escolaridad Adultos & 0 & 18 \\ 
+   & Esperanza educativa niños & 0 & 15 \\
+  Nivel de Vida  & PIB per Capita (USD ctes 2011) & 100 & 75,000 \\
+  \hline
+  \end{tabular}
+ \caption {Rango de Dimensiones IDH}
+  \label{Tabla 1:}
+\end {table} 
+
+La variable Salud se genera a través de un índice compuesto que refleja condiciones de salud en los hogares: protección de salud, a través del IGSS o de un seguro, número de personas por dormitorio, tipo de acceso a agua y saneamiento y tipo de piso en la vivienda. Todos estos factores influencian la expectantica de vida y se calculan de la siguiente manera.
+
+\[ Salud=\frac{LE-20} {85-20} \]
+
+Donde $LE = Expectativa de Vida$
+La variable Educación es un indicador compuesto que incluye la escolaridad alcanzada por adultos mayores de 25 años y la esperanza educativa en niños. En el primer indicador se mide la tasa de alfabetización de adultos en el segundo se mide la tasa bruta combinada de matriculación en educación primara, secundario y superior, así como los años de duración de la educación obligatoria. El cálculo del índice de educación se define de la siguiente manera
+\[Educación= \frac{EA + EN} {2} \]
+Donde
+\[EA= \frac{Prom de años de educación adultos} {18}  \]
+\[EN= \frac{Prom de años de educación niños} {15}  \]
+
+La variable del nivel de vida mide el PIB per cápita de una zona o país teniendo en cuenta un mínimo esperado y un máximo. La formula es la siguiente
+
+\[Nivel de Vida = \frac {Ln(PIBx) – Ln (100)} {Ln(75,000)-Ln(100)} \]
+
+
+
+
 
 Comencemos viendo que hay en la sección \ref{univariada} en la página \pageref{univariada}.
 
@@ -56,12 +100,12 @@ Comencemos viendo que hay en la sección \ref{univariada} en la página \pageref
 
 
 \input{Paper.tex}
-%\input{paperVersion_7_bivariada.tex}
-%\input{paperVersion_7_regresion.tex}
+\input{basico32departamentos.tex}
+
 
 
 %\bibliographystyle{apalike}
 %\renewcommand{\refname}{Bibliography}
-%\bibliography{Colombia}
+%\bibliography{ProyectoHerramientas}
 
 \end{document}

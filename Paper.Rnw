@@ -5,11 +5,9 @@
 
 \section{Exploración Univariada}\label{univariada}
 
-<<<<<<< HEAD
-En esta sección nos interesa explorar cada indice (IDH), para esto se realizan varias estadisticas con la información obtenida. En primer lugar, se evalua el numero de datos y la mediana de cada uno de los tipos de población.En la tabla 
-=======
-En esta sección nos interesa explorar cada indice (IDH), para esto se realizan varias estadisticas. En primer lugar, se evalua el numero de datos y la mediana de cada uno de los tipos de población.
->>>>>>> ab260d9ca0fc0df7d8f0226e20ffb9e91d0c4777
+
+En esta sección nos interesa explorar cada indice (IDH), para esto se realizan varias estadisticas con la información obtenida. En primer lugar, se evalua el numero de datos y la mediana de cada uno de los tipos de población.En la tabla \ref{stats} en la página \pageref{stats}.
+
 
 
 <<getData, echo=FALSE>>=
@@ -26,15 +24,14 @@ colb$Poblacion.Total=NULL
 @
 
 
-<<echo=F,results=tex>>=
+<<estadistica, echo=F,results=tex>>=
 library(stargazer)
 vars1 <- colb[, c(2:5)]
 
 stargazer(vars1,title = "Medidas estadísticas", label = "stats",summary.stat = c("n", "median"))
 @
 
-Para resaltar lo anterior, tenemos la Figura 
-%\ref{histograma} en la página \pageref{histograma}. 
+Para resaltar lo anterior, tenemos la Figura \ref{histograma} en la página \pageref{histograma}. 
 
 
 %%%%% figure
@@ -52,8 +49,7 @@ hist(colb$IDH, col= "royalblue" ,main="Histograma IDH ",ylab="Frecuencia")
 \end{figure}
 
 
-Como las poblaciones tienen un sesgo se normalizan los datos con log, el histograma de estos nuevos datos se muestra en la Figura 
-%\ref{normal} en la página \pageref{normal}.
+Como las poblaciones tienen un sesgo se normalizan los datos con log, el histograma de estos nuevos datos se muestra en la Figura \ref{normal} en la página \pageref{normal}.
 
 \begin{figure}[h]
 \centering
@@ -75,12 +71,9 @@ hist(colb$restoLog, col= "royalblue" ,main="Histograma resto normalizado ",ylab=
 
 \section{Exploración Bivariada}\label{bivariada}
 
-<<<<<<< HEAD
-en esta sección nos interesa ver el impacto que tiene la población en el IDH, para esto se presenta en la tabla 
-%\ref{corrDem} en la página \pageref{corrDem}. la correlación de las variables normalizadas con respecto al IDH
-=======
-en esta sección nos interesa ver el impacto que tiene la población en el IDH, para esto se presenta en la tabla \ref{corrDem} en la página \pageref{corrDem}. la correlación de las variables normalizadas con respecto al IDH
->>>>>>> ab260d9ca0fc0df7d8f0226e20ffb9e91d0c4777
+
+en esta sección nos interesa ver el impacto que tiene la población en el IDH, para esto se presenta en la tabla ref{corrDem} en la página \pageref{corrDem}. la correlación de las variables normalizadas con respecto al IDH
+¿+}
 
 
 <<corrDem, results=tex, echo=FALSE>>=
@@ -105,8 +98,7 @@ corrTableX[upper.tri(corrTableX)]<-""
 stargazer(corrTableX, title="Correlación entre variables independientes",label = 'corrTableX')
 @
 
-los datos anteriores los puede ver visualmente en la figura 
-%\ref{puntos} en la página \pageref{puntos}
+los datos anteriores los puede ver visualmente en la figura  \ref{puntos} en la página \pageref{puntos}
 
 \begin{figure}[h]
 \centering
@@ -122,10 +114,9 @@ plot(colb[,explanans], col="royalblue")
 
 \section{Modelos de Regresión}
 
-Finalmente, vemos los modelos propuestos. En cada una se evalua la variable independiente DIH con cada una de las categorias de la poblacion. Los resultados se muestran en la Tabla 
-%\ref{regresiones} de la página \pageref{regresiones}.
+Finalmente, vemos los modelos propuestos. En cada una se evalua la variable independiente DIH con cada una de las categorias de la poblacion. Los resultados se muestran en la Tabla \ref{regresiones} de la página \pageref{regresiones}.
 
-<<regresiones, echo=FALSE>>=
+<<regresiones, echo=false>>=
 LinRegA = lm(IDH ~ cabeLog, data = colb)
 LinRegB = lm(IDH ~ restoLog, data = colb)
 LinRegC = lm(IDH ~ totalLog, data = colb)

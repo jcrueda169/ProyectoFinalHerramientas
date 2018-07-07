@@ -5,12 +5,15 @@
 
 \section{Exploración Univariada}\label{univariada}
 
-En esta sección nos interesa explorar cada indice (IDH), para esto se realizan varias estadisticas con la información obtenida. En primer lugar, se evalua el numero de datos y la mediana de cada uno de los tipos de población.En la tabla 
+
+En esta sección nos interesa explorar cada indice (IDH), para esto se realizan varias estadisticas con la información obtenida. En primer lugar, se evalua el numero de datos y la mediana de cada uno de los tipos de población.En la tabla \ref{stats} en la página \pageref{stats}.
+
 
 
 
 
 % Table created by stargazer v.5.2.2 by Marek Hlavac, Harvard University. E-mail: hlavac at fas.harvard.edu
+<<<<<<< HEAD
 <<<<<<< HEAD
 % Date and time: dom, jul 01, 2018 - 15:21:46
 =======
@@ -24,6 +27,9 @@ En esta sección nos interesa explorar cada indice (IDH), para esto se realizan 
 >>>>>>> 0dfb99868056277324f1b1ce6d1f735f46219494
 >>>>>>> ab260d9ca0fc0df7d8f0226e20ffb9e91d0c4777
 >>>>>>> 242f35b3d9cbd73a283dbba520058c00d6a928b9
+=======
+% Date and time: vie, jul 06, 2018 - 10:53:27 p.m.
+>>>>>>> c41ce278211127108729943656bea93e4e66b2dd
 \begin{table}[!htbp] \centering 
   \caption{Medidas estadísticas} 
   \label{stats} 
@@ -37,8 +43,7 @@ resto & 32 & 268,111.5 \\
 \hline \\[-1.8ex] 
 \end{tabular} 
 \end{table} 
-Para resaltar lo anterior, tenemos la Figura 
-%\ref{histograma} en la página \pageref{histograma}. 
+Para resaltar lo anterior, tenemos la Figura \ref{histograma} en la página \pageref{histograma}. 
 
 
 %%%%% figure
@@ -50,8 +55,7 @@ Para resaltar lo anterior, tenemos la Figura
 \end{figure}
 
 
-Como las poblaciones tienen un sesgo se normalizan los datos con log, el histograma de estos nuevos datos se muestra en la Figura 
-%\ref{normal} en la página \pageref{normal}.
+Como las poblaciones tienen un sesgo se normalizan los datos con log, el histograma de estos nuevos datos se muestra en la Figura \ref{normal} en la página \pageref{normal}.
 
 \begin{figure}[h]
 \centering
@@ -65,18 +69,13 @@ Como las poblaciones tienen un sesgo se normalizan los datos con log, el histogr
 
 \section{Exploración Bivariada}\label{bivariada}
 
+
+en esta sección nos interesa ver el impacto que tiene la población en el IDH, para esto se presenta en la tabla ref{corrDem} en la página \pageref{corrDem}. la correlación de las variables normalizadas con respecto al IDH
+¿+}
+
+
+% Table created by stargazer v.5.2.2 by Marek Hlavac, Harvard University. E-mail: hlavac at fas.harvard.edu
 <<<<<<< HEAD
-en esta sección nos interesa ver el impacto que tiene la población en el IDH, para esto se presenta en la tabla 
-%\ref{corrDem} en la página \pageref{corrDem}. la correlación de las variables normalizadas con respecto al IDH
-
-
-% Table created by stargazer v.5.2.2 by Marek Hlavac, Harvard University. E-mail: hlavac at fas.harvard.edu
-% Date and time: vie, jun 29, 2018 - 07:48:37 p.m.
-=======
-en esta sección nos interesa ver el impacto que tiene la población en el IDH, para esto se presenta en la tabla \ref{corrDem} en la página \pageref{corrDem}. la correlación de las variables normalizadas con respecto al IDH
-
-
-% Table created by stargazer v.5.2.2 by Marek Hlavac, Harvard University. E-mail: hlavac at fas.harvard.edu
 <<<<<<< HEAD
 % Date and time: dom, jul 01, 2018 - 15:21:47
 =======
@@ -87,6 +86,9 @@ en esta sección nos interesa ver el impacto que tiene la población en el IDH, 
 >>>>>>> 0dfb99868056277324f1b1ce6d1f735f46219494
 >>>>>>> ab260d9ca0fc0df7d8f0226e20ffb9e91d0c4777
 >>>>>>> 242f35b3d9cbd73a283dbba520058c00d6a928b9
+=======
+% Date and time: vie, jul 06, 2018 - 10:53:31 p.m.
+>>>>>>> c41ce278211127108729943656bea93e4e66b2dd
 \begin{table}[!htbp] \centering 
   \caption{Correlación de Democracia con las demás variables} 
   \label{corrDem} 
@@ -105,6 +107,7 @@ Ademas, se muestra la correlacion entre todas las variables independientes en la
 
 % Table created by stargazer v.5.2.2 by Marek Hlavac, Harvard University. E-mail: hlavac at fas.harvard.edu
 <<<<<<< HEAD
+<<<<<<< HEAD
 % Date and time: dom, jul 01, 2018 - 15:21:47
 =======
 <<<<<<< HEAD
@@ -117,6 +120,9 @@ Ademas, se muestra la correlacion entre todas las variables independientes en la
 >>>>>>> 0dfb99868056277324f1b1ce6d1f735f46219494
 >>>>>>> ab260d9ca0fc0df7d8f0226e20ffb9e91d0c4777
 >>>>>>> 242f35b3d9cbd73a283dbba520058c00d6a928b9
+=======
+% Date and time: vie, jul 06, 2018 - 10:53:31 p.m.
+>>>>>>> c41ce278211127108729943656bea93e4e66b2dd
 \begin{table}[!htbp] \centering 
   \caption{Correlación entre variables independientes} 
   \label{corrTableX} 
@@ -130,8 +136,7 @@ cabeLog & 0.71 & 1 \\
 \hline \\[-1.8ex] 
 \end{tabular} 
 \end{table} 
-los datos anteriores los puede ver visualmente en la figura 
-%\ref{puntos} en la página \pageref{puntos}
+los datos anteriores los puede ver visualmente en la figura  \ref{puntos} en la página \pageref{puntos}
 
 \begin{figure}[h]
 \centering
@@ -145,11 +150,11 @@ los datos anteriores los puede ver visualmente en la figura
 
 \section{Modelos de Regresión}
 
-Finalmente, vemos los modelos propuestos. En cada una se evalua la variable independiente DIH con cada una de las categorias de la poblacion. Los resultados se muestran en la Tabla 
-%\ref{regresiones} de la página \pageref{regresiones}.
+Finalmente, vemos los modelos propuestos. En cada una se evalua la variable independiente DIH con cada una de las categorias de la poblacion. Los resultados se muestran en la Tabla \ref{regresiones} de la página \pageref{regresiones}.
 
 
 % Table created by stargazer v.5.2.2 by Marek Hlavac, Harvard University. E-mail: hlavac at fas.harvard.edu
+<<<<<<< HEAD
 <<<<<<< HEAD
 % Date and time: dom, jul 01, 2018 - 15:21:47
 =======
@@ -163,6 +168,9 @@ Finalmente, vemos los modelos propuestos. En cada una se evalua la variable inde
 >>>>>>> 0dfb99868056277324f1b1ce6d1f735f46219494
 >>>>>>> ab260d9ca0fc0df7d8f0226e20ffb9e91d0c4777
 >>>>>>> 242f35b3d9cbd73a283dbba520058c00d6a928b9
+=======
+% Date and time: vie, jul 06, 2018 - 10:53:31 p.m.
+>>>>>>> c41ce278211127108729943656bea93e4e66b2dd
 \begin{table}[!htbp] \centering 
   \caption{Modelos de Regresión} 
   \label{regresiones} 
