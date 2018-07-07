@@ -20,6 +20,7 @@ summary(colb)
 ## graficos
 # el plot de cada uno seria el histograma:
 
+par(mfrow=c(2,2))
 hist(colb$IDH)
 hist(colb$Población.Cabecera)
 hist(colb$Población.Resto)
@@ -131,7 +132,7 @@ clusters=as.data.frame(resultado$cluster)
 clusters$NAME_1=dataCluster$NAME_1
 names(clusters)=c('cluster','NAME_1')
 #hago el merge hacia el mapa:
-mapCol_idh=merge(mapCol_idh,clusters, by='NAME_1',all.x=F)
+mapCol_idh=merge(mapCol_idh,clusters, by='NAME_1',all.x=T)
 
 # lo tengo?
 names(mapCol_idh)
