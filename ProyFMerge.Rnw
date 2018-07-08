@@ -103,10 +103,12 @@ Comencemos viendo que hay en la sección \ref{univariada} en la página \pageref
 \clearpage
 \input{basico32departamentos.tex}
 
-
+\clearpage
 
 \bibliographystyle{apalike}
 \renewcommand{\refname}{Bibliography}
 \bibliography{Bibliografia}
+
+La bibliografía fue incluida en el .Rnw como lo hicimos en clase y como muestran los tutoriales pero por alguna razón no se esta viendo. la Bibiliografia está en la carpeta y se llama Bibliografia.bib
 
 \end{document}
